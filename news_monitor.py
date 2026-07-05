@@ -186,8 +186,32 @@ def send_telegram(message: str) -> bool:
         return False
 
 
+def check_heartbeat(state: dict):
+    """Envoie un message hebdomadaire pour confirmer que le bot est actif."""
+    last_heartbeat = state.get("last_heartbeat")
+    now = datetime.now(timezone.utc)
+
+    if last_heartbeat:
+        last_dt = datetime.fromisoformat(last_heartbeat)
+        days_since = (now - last_dt).days
+        if days_since < 7:
+            return
+
+    msg = (
+        "💓 <b>News Monitor Bot — toujours actif</b>\n\n"
+        f"Dernière vérification : {now.strftime('%Y-%m-%d %H:%M')} UTC\n"
+        f"Indicateurs surveillés : {len(SERIES)}\n"
+        "Aucune action requise — ceci est juste une confirmation "
+        "que le système tourne normalement."
+    )
+    send_telegram(msg)
+    state["last_heartbeat"] = now.isoformat()
+
+
 def run_once():
     state = load_state()
+    check_heartbeat(state)
+
     missing = [n for n, v in [
         ("FRED_API_KEY", FRED_API_KEY),
         ("TELEGRAM_BOT_TOKEN", TELEGRAM_TOKEN),
@@ -195,6 +219,7 @@ def run_once():
     ] if not v]
     if missing:
         log.error(f"Variables manquantes : {', '.join(missing)} — arrêt.")
+        save_state(state)
         return
 
     for series_id in SERIES:
