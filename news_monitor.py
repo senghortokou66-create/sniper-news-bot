@@ -42,28 +42,37 @@ TARGET_EVENTS = {
 MIN_SURPRISE_PCT = 8.0  # seuil valide par le backtest (config "Large")
 
 # Le backtest multi-marches (session precedente) a confirme que l'edge
-# n'existe que sur XAUUSD : EURUSD/GBPUSD/USDJPY n'ont jamais ete valides
-# statistiquement. On ne garde donc que XAUUSD pour eviter d'envoyer des
-# signaux trompeurs sur des paires sans edge demontre.
+# n'existe PAS sur les paires de devises classiques (EURUSD/GBPUSD/USDJPY),
+# mais SE GENERALISE aux deux metaux precieux testes : XAUUSD (PF test
+# 27.89) ET XAGUSD (PF test 25.04), tous deux valides par permutation
+# statistique (p<0.33%). Seuils identiques en % du prix pour les deux
+# actifs (valide par sanity-check : XAUUSD en % redonne le meme PF que
+# XAUUSD en dollars absolus).
 PAIR_DIRECTION = {
     "XAUUSD": {"usd_strong": "SELL", "usd_weak": "BUY"},
+    "XAGUSD": {"usd_strong": "SELL", "usd_weak": "BUY"},
 }
-PAIRS_TO_TRADE = ["XAUUSD"]
+PAIRS_TO_TRADE = ["XAUUSD", "XAGUSD"]
 
-# SL/TP + mecanisme breakeven/trailing valides par le backtest complet
-# (config "Large" : surprise>=8%, tendance pre-annonce>=5$, breakeven+trailing
-# 2$/1$). PF test ~25, win rate 83.3% sur 48 trades, p<0.0033 (permutation).
-SL_TP = {
-    "XAUUSD": {"sl": 15, "tp": 150, "pip": 0.1, "breakeven_trigger": 20, "trail_distance": 10},
+# Symbole utilise par gold-api.com pour chaque paire (gratuit, sans cle,
+# sans limite de requetes sur l'endpoint prix temps reel).
+GOLD_API_SYMBOL = {
+    "XAUUSD": "XAU",
+    "XAGUSD": "XAG",
 }
 
-# LIMITATION CONNUE, PAS ENCORE RESOLUE :
-# Le filtre de confluence (tendance des 4h precedant l'annonce alignee avec
-# la direction macro) ameliore fortement le PF dans le backtest, mais
-# necessite un flux de prix XAUUSD en temps reel que ce bot n'a pas encore.
-# Sans lui, ce bot envoie un signal des que la surprise macro seule depasse
-# le seuil — un edge reel mais legerement inferieur a la config complete
-# testee (PF ~4-5 attendu sans confluence, vs PF ~25 avec confluence).
+# Seuils valides par le backtest complet, exprimes en % du prix (pas en
+# dollars fixes) pour etre applicables aux deux actifs a des echelles de
+# prix tres differentes (or ~1888$, argent ~23$ sur la periode de
+# reference). PF test ~25-28 selon l'actif, win rate 76.5%-83.3%,
+# p<0.33% (permutation) sur les deux.
+SL_PCT = 1.5 / 1888.31
+TP_PCT = 15.0 / 1888.31
+BREAKEVEN_TRIGGER_PCT = 2.0 / 1888.31
+TRAIL_DISTANCE_PCT = 1.0 / 1888.31
+MIN_TREND_PCT = 5.0 / 1888.31
+
+PRICE_HISTORY_MAX_HOURS = 5  # marge au-dela des 4h necessaires au filtre de confluence
 
 
 def load_state() -> dict:
@@ -79,6 +88,73 @@ def load_state() -> dict:
 def save_state(state: dict):
     with open(STATE_FILE, "w") as f:
         json.dump(state, f, indent=2)
+
+
+def fetch_current_price(pair: str) -> float | None:
+    """Recupere le prix en temps reel via gold-api.com (gratuit, sans
+    cle, sans limite de requetes sur cet endpoint), pour XAUUSD ou XAGUSD."""
+    symbol = GOLD_API_SYMBOL[pair]
+    try:
+        r = requests.get(f"https://api.gold-api.com/price/{symbol}", timeout=10)
+        r.raise_for_status()
+        data = r.json()
+        price = data.get("price")
+        return float(price) if price is not None else None
+    except Exception as e:
+        log.error(f"Erreur gold-api.com ({pair}) : {e}")
+        return None
+
+
+def record_price_snapshot(state: dict):
+    """Enregistre le prix actuel de chaque paire suivie, et purge les
+    entrees de plus de PRICE_HISTORY_MAX_HOURS."""
+    now = datetime.now(timezone.utc)
+    all_history = state.setdefault("price_history", {})
+
+    for pair in PAIRS_TO_TRADE:
+        price = fetch_current_price(pair)
+        if price is None:
+            log.warning(f"Impossible de recuperer le prix {pair} — snapshot ignore")
+            continue
+
+        history = all_history.setdefault(pair, [])
+        history.append({"t": now.isoformat(), "price": price})
+
+        cutoff = now - timedelta(hours=PRICE_HISTORY_MAX_HOURS)
+        all_history[pair] = [h for h in history if datetime.fromisoformat(h["t"]) >= cutoff]
+        log.info(f"Snapshot {pair} enregistre : {price} ({len(all_history[pair])} points en historique)")
+
+
+def check_trend_confluence(pair: str, direction: str, state: dict):
+    """Verifie que la tendance des 4h precedentes (pour CETTE paire) est
+    alignee avec la direction predite, avec une force suffisante
+    (>= MIN_TREND_PCT). Renvoie (True/False/None, pre_move_pct).
+    None = donnees insuffisantes pour trancher."""
+    history = state.get("price_history", {}).get(pair, [])
+    if len(history) < 2:
+        return None, None
+
+    now = datetime.now(timezone.utc)
+    target = now - timedelta(hours=4)
+    history_sorted = sorted(history, key=lambda h: h["t"])
+
+    oldest = datetime.fromisoformat(history_sorted[0]["t"])
+    if oldest > target + timedelta(minutes=20):
+        # pas encore 4h d'historique accumule (ex: bot vient de redemarrer)
+        return None, None
+
+    ref_point = min(history_sorted, key=lambda h: abs(datetime.fromisoformat(h["t"]) - target))
+    price_4h_ago = ref_point["price"]
+    price_now = history_sorted[-1]["price"]
+
+    if price_4h_ago == 0:
+        return None, None
+
+    pre_move_pct = (price_now - price_4h_ago) / price_4h_ago
+    aligned = (pre_move_pct > 0) if direction == "BUY" else (pre_move_pct < 0)
+    strong_enough = abs(pre_move_pct) >= MIN_TREND_PCT
+
+    return (aligned and strong_enough), pre_move_pct
 
 
 def fetch_calendar(state: dict) -> list:
@@ -151,7 +227,10 @@ def calculate_signal(event: dict):
     }
 
 
-def format_telegram_message(signal: dict) -> str:
+def format_telegram_message(signal: dict, pair_results: dict) -> str:
+    """pair_results : { "XAUUSD": (confluence_ok, pre_move_pct, current_price), ... }
+    Seules les paires avec confluence_ok True ou None (non verifiable)
+    sont incluses — celles a False sont deja filtrees en amont."""
     usd_dir = "FORT 📈" if signal["usd_positive"] else "FAIBLE 📉"
 
     lines = [
@@ -166,13 +245,29 @@ def format_telegram_message(signal: dict) -> str:
         "",
         "─────────────────────",
     ]
-    for pair in PAIRS_TO_TRADE:
+
+    for pair, (confluence_ok, pre_move_pct, current_price) in pair_results.items():
         direction = PAIR_DIRECTION[pair]["usd_strong" if signal["usd_positive"] else "usd_weak"]
-        sl_tp = SL_TP[pair]
         emoji = "🟢" if direction == "BUY" else "🔴"
-        lines.append(
-            f"{emoji} <b>{pair}</b> → {direction} | SL {sl_tp['sl']} pips | TP {sl_tp['tp']} pips | R:R 1:{sl_tp['tp']//sl_tp['sl']}"
-        )
+
+        if current_price:
+            sl_amount = current_price * SL_PCT
+            tp_amount = current_price * TP_PCT
+            be_amount = current_price * BREAKEVEN_TRIGGER_PCT
+            trail_amount = current_price * TRAIL_DISTANCE_PCT
+            lines.append(
+                f"{emoji} <b>{pair}</b> → {direction} | SL {sl_amount:.3f}$ | TP {tp_amount:.3f}$ | R:R 1:10"
+            )
+            lines.append(
+                f"   Breakeven a +{be_amount:.3f}$, trailing a {trail_amount:.3f}$ derriere le meilleur prix"
+            )
+        else:
+            lines.append(f"{emoji} <b>{pair}</b> → {direction} | (prix indisponible, verifier manuellement)")
+
+        if confluence_ok is None:
+            lines.append("   ⚠️ Confluence non verifiable (historique insuffisant) — edge plus faible attendu")
+        else:
+            lines.append(f"   ✅ Confluence confirmee (tendance 4h {pre_move_pct*100:+.2f}%)")
 
     lines += [
         "─────────────────────",
@@ -183,19 +278,16 @@ def format_telegram_message(signal: dict) -> str:
         "   Un delai, meme d'1 min, detruit fortement l'edge.",
         "",
         "🎯 SORTIE — Breakeven puis trailing (valide, PF x2 vs SL/TP fixe) :",
-        f"   1. Des que +2 dollars (soit +{sl_tp['breakeven_trigger']} pips) de gain latent,",
+        "   1. Des que le gain latent atteint le seuil breakeven ci-dessus,",
         "      deplace le SL au prix d'entree (perte plafonnee au spread).",
-        f"   2. Puis fais suivre le SL a 1 dollar (soit {sl_tp['trail_distance']} pips)",
-        "      derriere le meilleur prix atteint, jusqu'au TP ou a la sortie.",
+        "   2. Puis fais suivre le SL derriere le meilleur prix atteint",
+        "      (distance de trailing indiquee ci-dessus), jusqu'au TP.",
         "",
         "🎯 Le spread/slippage est plus eleve a cet instant precis",
         "   (x2 a x3 la normale, jusqu'a x8 sur CPI/NFP extremes)",
         "   — c'est le cout normal de l'edge, pas un signal d'alerte.",
         "",
-        "ℹ️ Filtre de confluence (tendance 4h) pas encore actif sur ce bot",
-        "   — infra de prix temps reel manquante. Edge reel mais partiel.",
-        "",
-        f"🕐 {datetime.now(timezone.utc).strftime('%H:%M:%S')} UTC — Source : ForexFactory (consensus)",
+        f"🕐 {datetime.now(timezone.utc).strftime('%H:%M:%S')} UTC — Source : ForexFactory (consensus) + gold-api.com (prix)",
     ]
     return "\n".join(lines)
 
@@ -255,6 +347,10 @@ def run_once():
         save_state(state)
         return
 
+    # Snapshot de prix a CHAQUE execution (independamment des news), pour
+    # accumuler l'historique necessaire au filtre de confluence 4h.
+    record_price_snapshot(state)
+
     events = fetch_calendar(state)
     processed = state.setdefault("processed_events", [])
 
@@ -267,18 +363,36 @@ def run_once():
 
         signal = calculate_signal(event)
         if signal is None:
-            # soit hors-cible, soit pas encore publie -> on ne marque PAS
-            # comme traite si l'actual n'est pas encore disponible, pour
-            # pouvoir re-verifier au prochain lancement.
             if event.get("actual") not in (None, "", "N/A"):
                 processed.append(event_key)
             continue
 
         processed.append(event_key)
-        log.info(f"Nouveau signal : {signal['title']} | surprise {signal['pct']:.1f}%")
-        send_telegram(format_telegram_message(signal))
 
-    # limiter la taille de l'historique traite
+        pair_results = {}
+        for pair in PAIRS_TO_TRADE:
+            direction = PAIR_DIRECTION[pair]["usd_strong" if signal["usd_positive"] else "usd_weak"]
+            confluence_ok, pre_move_pct = check_trend_confluence(pair, direction, state)
+
+            if confluence_ok is False:
+                pm = pre_move_pct * 100 if pre_move_pct else 0
+                log.info(
+                    f"{pair} — signal {signal['title']} ({signal['pct']:.1f}%) REJETE par le "
+                    f"filtre de confluence (tendance 4h={pm:+.2f}%, non alignee ou trop faible)."
+                )
+                continue  # cette paire est exclue, mais les autres peuvent quand meme s'afficher
+
+            history = state.get("price_history", {}).get(pair, [])
+            current_price = history[-1]["price"] if history else None
+            pair_results[pair] = (confluence_ok, pre_move_pct, current_price)
+
+        if not pair_results:
+            log.info(f"Aucune paire n'a passe le filtre de confluence pour {signal['title']} — pas d'envoi.")
+            continue
+
+        log.info(f"Nouveau signal : {signal['title']} | surprise {signal['pct']:.1f}% | paires={list(pair_results.keys())}")
+        send_telegram(format_telegram_message(signal, pair_results))
+
     state["processed_events"] = processed[-200:]
     save_state(state)
 
