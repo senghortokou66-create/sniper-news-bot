@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-07-07T09:56:41.590910+00:00",
-  "last_calendar_fetch": "2026-07-13T09:25:27.316486+00:00",
+  "last_calendar_fetch": "2026-07-13T10:52:00.398397+00:00",
   "calendar_cache": [
     {
       "title": "BusinessNZ Services Index",
@@ -16,22 +16,6 @@
       "impact": "Low",
       "forecast": "",
       "previous": "47.5"
-    },
-    {
-      "title": "M2 Money Supply y/y",
-      "country": "CNY",
-      "date": "2026-07-13T04:03:00-04:00",
-      "impact": "Low",
-      "forecast": "8.5%",
-      "previous": "8.6%"
-    },
-    {
-      "title": "New Loans",
-      "country": "CNY",
-      "date": "2026-07-13T04:03:00-04:00",
-      "impact": "Low",
-      "forecast": "1950B",
-      "previous": "520B"
     },
     {
       "title": "FOMC Member Bowman Speaks",
@@ -152,6 +136,22 @@
       "impact": "Low",
       "forecast": "-0.5%",
       "previous": "-0.4%"
+    },
+    {
+      "title": "M2 Money Supply y/y",
+      "country": "CNY",
+      "date": "2026-07-14T04:03:00-04:00",
+      "impact": "Low",
+      "forecast": "8.5%",
+      "previous": "8.6%"
+    },
+    {
+      "title": "New Loans",
+      "country": "CNY",
+      "date": "2026-07-14T04:03:00-04:00",
+      "impact": "Low",
+      "forecast": "1950B",
+      "previous": "520B"
     },
     {
       "title": "BOE Gov Bailey Speaks",
@@ -794,5 +794,19 @@
       "previous": "4.6%"
     }
   ],
-  "processed_events": []
+  "processed_events": [],
+  "price_history": {
+    "XAUUSD": [
+      {
+        "t": "2026-07-13T10:51:59.190367+00:00",
+        "price": 4056.100098
+      }
+    ],
+    "XAGUSD": [
+      {
+        "t": "2026-07-13T10:51:59.190367+00:00",
+        "price": 58.540001
+      }
+    ]
+  }
 }
