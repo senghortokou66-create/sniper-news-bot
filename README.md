@@ -26,12 +26,21 @@ l'annonce — **aucun délai, aucune confirmation**. Un délai, même d'une
 minute, détruit la majeure partie de l'edge (voir BACKTEST_RESULTS.md,
 section "Timing d'entrée").
 
-**Gestion de sortie** : Stop Loss fixe (1,5$ / 15 pips sur l'or) +
-mécanisme de **breakeven puis trailing stop** :
-1. Dès que +2$ de gain latent → SL déplacé au prix d'entrée (perte
-   plafonnée au coût du spread)
-2. Puis le SL suit à 1$ derrière le meilleur prix atteint, jusqu'au
-   Take Profit (15$, ratio R:R 1:10) ou jusqu'à la sortie
+**Actifs suivis en production** : XAUUSD (or) et XAGUSD (argent),
+chacun avec son propre suivi de prix et son propre filtre de
+confluence — un signal peut être confirmé sur l'un et pas sur l'autre.
+
+**Gestion de sortie** : SL/TP et breakeven/trailing calculés
+**dynamiquement en % du prix réel au moment du signal** (pas des pips
+fixes) : SL ≈0,079% du prix, TP ≈0,79% (ratio R:R 1:10) :
+1. Dès que le gain latent atteint ≈0,106% du prix → SL déplacé au prix
+   d'entrée (perte plafonnée au coût du spread)
+2. Puis le SL suit à ≈0,053% derrière le meilleur prix atteint, jusqu'au
+   Take Profit ou jusqu'à la sortie
+
+Ces pourcentages sont calibrés sur l'or (validés à 1,5$/15$ à son prix
+moyen historique ~1888$) et se généralisent à l'argent (validés
+indépendamment, voir tableau ci-dessous).
 
 **Indicateurs surveillés** : Non-Farm Employment Change (NFP), Core CPI
 m/m, Unemployment Rate. Unemployment Claims (hebdomadaire) a été
@@ -46,35 +55,43 @@ délibérément exclu — testé et démontré contre-productif seul (PF 1,85).
 
 ---
 
-## ⚠️ Limitation connue et non résolue
+## ✅ Filtre de confluence maintenant actif
 
-**Le filtre de confluence (tendance des 4h) n'est PAS actif dans le bot
-en production.** Il nécessite un flux de prix XAUUSD en temps réel que
-ce bot n'a pas encore (infrastructure manquante : ni connexion MT5, ni
-API de prix live). Sans ce filtre, le bot envoie un signal dès que la
-seule surprise macro dépasse 8% — un edge réel mais partiel (PF attendu
-~4-5 sans confluence, contre ~25-28 avec confluence complète).
+**Le filtre de confluence (tendance des 4h) est actif depuis la version
+la plus récente.** Source de prix : [gold-api.com](https://gold-api.com)
+— gratuit, sans clé API, sans limite de requêtes sur l'endpoint prix
+temps réel. Le bot enregistre un instantané de prix à chaque exécution
+(toutes les 15 min) dans `state.json`, conserve une fenêtre glissante de
+5h, et vérifie la tendance réelle avant chaque signal.
 
-**Pistes pour résoudre ça** (non implémentées) :
-- API de prix gratuite (ex: TwelveData, Alpha Vantage)
-- Connexion directe MT5 (nécessite que le bot tourne près du terminal,
-  pas compatible avec GitHub Actions en l'état)
+**Comportement selon le résultat de la vérification** :
+- **Confluence confirmée** → signal envoyé, config complète validée
+  (PF ~25-28)
+- **Confluence absente** (tendance contraire ou trop faible) → signal
+  **non envoyé**, uniquement loggé
+- **Historique insuffisant** (bot récemment démarré/redémarré, moins de
+  4h de données accumulées) → signal envoyé quand même, mais
+  explicitement marqué comme non confirmé (edge plus faible attendu,
+  PF ~4-5)
 
-De même, le mécanisme de breakeven/trailing est communiqué dans le
-message Telegram pour exécution **manuelle** — le bot n'exécute aucun
-trade lui-même (pas de connexion broker), il envoie uniquement des
-signaux.
+Le mécanisme de breakeven/trailing reste communiqué dans le message
+Telegram pour exécution **manuelle** — le bot n'exécute aucun trade
+lui-même (pas de connexion broker), il envoie uniquement des signaux.
 
 ---
 
 ## Architecture technique
 
-- **Source de données** : flux public ForexFactory
+- **Source de données calendrier** : flux public ForexFactory
   (`nfs.faireconomy.media/ff_calendar_thisweek.json`) — fournit
   actual/forecast/previous, gratuit, utilisé par la communauté MT4/MT5
   depuis des années. Remplace FRED (qui ne fournit jamais le consensus
   des économistes — voir `BACKTEST_RESULTS.md`, section "Erreur
   corrigée : FRED vs ForexFactory").
+- **Source de prix (confluence)** : [gold-api.com](https://gold-api.com)
+  — gratuit, sans clé, sans limite de requêtes sur l'endpoint temps
+  réel. Symboles `XAU` (or) et `XAG` (argent) suivis en parallèle,
+  chacun avec son propre historique de prix dans `state.json`.
 - **Cache** : 30 min entre chaque appel au calendrier (le flux limite
   les requêtes).
 - **Notification** : Telegram (Bot API).
@@ -102,7 +119,17 @@ ForexFactory — peut être supprimée des secrets sans impact.
    train/test rigoureuse.
 3. **v3 (4 indicateurs, SL15/TP150, sans Unemployment Claims)** — PF
    4,07-4,74, première validation train/test.
-4. **v4 (confluence macro+tendance, breakeven/trailing)** — **version
-   actuelle documentée dans ce README**. PF ~25-28, validée par
-   permutation statistique, généralisée à XAGUSD. Filtre de confluence
-   pas encore actif en production (limitation ci-dessus).
+4. **v4 (confluence macro+tendance, breakeven/trailing)** — PF ~25-28,
+   validée par permutation statistique, généralisée à XAGUSD. Filtre de
+   confluence testé en backtest mais pas encore actif en production à
+   ce stade.
+5. **v5 (confluence active en production)** — Ajout de gold-api.com
+   comme source de prix temps réel, historique glissant 5h stocké dans
+   `state.json`, filtre de confluence pleinement actif avant chaque
+   envoi de signal. Limité à XAUUSD à ce stade.
+6. **v6 (XAGUSD ajouté, SL/TP en % dynamique)** — **version actuelle**.
+   Ajout de XAGUSD en parallèle de XAUUSD, chacun avec son propre suivi
+   de prix et sa propre vérification de confluence. SL/TP/breakeven/
+   trailing recalculés en % du prix (dynamique) au lieu de pips fixes,
+   pour rester valides sur les deux actifs à des échelles de prix très
+   différentes.
