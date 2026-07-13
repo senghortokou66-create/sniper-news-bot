@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-07-07T09:56:41.590910+00:00",
-  "last_calendar_fetch": "2026-07-13T17:02:29.837298+00:00",
+  "last_calendar_fetch": "2026-07-13T20:42:57.269018+00:00",
   "calendar_cache": [
     {
       "title": "BusinessNZ Services Index",
@@ -34,20 +34,20 @@
       "previous": ""
     },
     {
+      "title": "Federal Budget Balance",
+      "country": "USD",
+      "date": "2026-07-13T13:59:00-04:00",
+      "impact": "Low",
+      "forecast": "-135.8B",
+      "previous": "-292.6B"
+    },
+    {
       "title": "MPC Member Pill Speaks",
       "country": "GBP",
       "date": "2026-07-13T14:00:00-04:00",
       "impact": "Low",
       "forecast": "",
       "previous": ""
-    },
-    {
-      "title": "Federal Budget Balance",
-      "country": "USD",
-      "date": "2026-07-13T14:00:00-04:00",
-      "impact": "Low",
-      "forecast": "-135.8B",
-      "previous": "-292.6B"
     },
     {
       "title": "NZIER Business Confidence",
@@ -398,7 +398,7 @@
       "country": "USD",
       "date": "2026-07-15T08:30:00-04:00",
       "impact": "High",
-      "forecast": "0.3%",
+      "forecast": "0.4%",
       "previous": "0.4%"
     },
     {
@@ -414,7 +414,7 @@
       "country": "USD",
       "date": "2026-07-15T08:30:00-04:00",
       "impact": "Low",
-      "forecast": "8.7",
+      "forecast": "9.4",
       "previous": "5.7"
     },
     {
@@ -518,7 +518,7 @@
       "country": "GBP",
       "date": "2026-07-16T02:00:00-04:00",
       "impact": "High",
-      "forecast": "0.1%",
+      "forecast": "0.0%",
       "previous": "-0.1%"
     },
     {
@@ -534,7 +534,7 @@
       "country": "GBP",
       "date": "2026-07-16T02:00:00-04:00",
       "impact": "Low",
-      "forecast": "-22.8B",
+      "forecast": "-23.1B",
       "previous": "-26.0B"
     },
     {
@@ -574,7 +574,7 @@
       "country": "EUR",
       "date": "2026-07-16T05:00:00-04:00",
       "impact": "Low",
-      "forecast": "4.50B",
+      "forecast": "4.83B",
       "previous": "4.29B"
     },
     {
@@ -582,7 +582,7 @@
       "country": "EUR",
       "date": "2026-07-16T05:00:00-04:00",
       "impact": "Low",
-      "forecast": "2.5B",
+      "forecast": "2.8B",
       "previous": "1.3B"
     },
     {
@@ -598,7 +598,7 @@
       "country": "CAD",
       "date": "2026-07-16T08:15:00-04:00",
       "impact": "Low",
-      "forecast": "257K",
+      "forecast": "256K",
       "previous": "261K"
     },
     {
@@ -606,7 +606,7 @@
       "country": "USD",
       "date": "2026-07-16T08:30:00-04:00",
       "impact": "Medium",
-      "forecast": "-0.1%",
+      "forecast": "0.0%",
       "previous": "0.8%"
     },
     {
@@ -614,7 +614,7 @@
       "country": "USD",
       "date": "2026-07-16T08:30:00-04:00",
       "impact": "Medium",
-      "forecast": "12.1",
+      "forecast": "12.7",
       "previous": "10.3"
     },
     {
@@ -622,7 +622,7 @@
       "country": "USD",
       "date": "2026-07-16T08:30:00-04:00",
       "impact": "Medium",
-      "forecast": "0.3%",
+      "forecast": "0.2%",
       "previous": "0.9%"
     },
     {
@@ -630,7 +630,7 @@
       "country": "USD",
       "date": "2026-07-16T08:30:00-04:00",
       "impact": "Medium",
-      "forecast": "215K",
+      "forecast": "216K",
       "previous": "215K"
     },
     {
@@ -654,7 +654,7 @@
       "country": "USD",
       "date": "2026-07-16T10:00:00-04:00",
       "impact": "Low",
-      "forecast": "-0.3%",
+      "forecast": "-0.4%",
       "previous": "3.8%"
     },
     {
@@ -710,7 +710,7 @@
       "country": "EUR",
       "date": "2026-07-17T04:00:00-04:00",
       "impact": "Low",
-      "forecast": "17.1B",
+      "forecast": "18.1B",
       "previous": "15.7B"
     },
     {
@@ -750,7 +750,7 @@
       "country": "USD",
       "date": "2026-07-17T08:30:00-04:00",
       "impact": "Low",
-      "forecast": "1.32M",
+      "forecast": "1.31M",
       "previous": "1.18M"
     },
     {
@@ -758,7 +758,7 @@
       "country": "USD",
       "date": "2026-07-17T08:30:00-04:00",
       "impact": "Low",
-      "forecast": "-0.4%",
+      "forecast": "-0.7%",
       "previous": "1.9%"
     },
     {
@@ -782,7 +782,7 @@
       "country": "USD",
       "date": "2026-07-17T10:00:00-04:00",
       "impact": "Medium",
-      "forecast": "51.4",
+      "forecast": "51.0",
       "previous": "48.9"
     },
     {
@@ -800,12 +800,20 @@
       {
         "t": "2026-07-13T17:02:28.863224+00:00",
         "price": 3996.399902
+      },
+      {
+        "t": "2026-07-13T20:42:56.144287+00:00",
+        "price": 4000.199951
       }
     ],
     "XAGUSD": [
       {
         "t": "2026-07-13T17:02:28.863224+00:00",
         "price": 57.777
+      },
+      {
+        "t": "2026-07-13T20:42:56.144287+00:00",
+        "price": 57.688
       }
     ]
   }
