@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-07-07T09:56:41.590910+00:00",
-  "last_calendar_fetch": "2026-07-13T10:52:00.398397+00:00",
+  "last_calendar_fetch": "2026-07-13T17:02:29.837298+00:00",
   "calendar_cache": [
     {
       "title": "BusinessNZ Services Index",
@@ -46,7 +46,7 @@
       "country": "USD",
       "date": "2026-07-13T14:00:00-04:00",
       "impact": "Low",
-      "forecast": "-132.8B",
+      "forecast": "-135.8B",
       "previous": "-292.6B"
     },
     {
@@ -70,7 +70,7 @@
       "country": "GBP",
       "date": "2026-07-13T19:01:00-04:00",
       "impact": "Low",
-      "forecast": "2.9%",
+      "forecast": "2.6%",
       "previous": "3.4%"
     },
     {
@@ -94,7 +94,7 @@
       "country": "CNY",
       "date": "2026-07-13T22:03:00-04:00",
       "impact": "Low",
-      "forecast": "820B",
+      "forecast": "810B",
       "previous": "724B"
     },
     {
@@ -102,7 +102,7 @@
       "country": "CNY",
       "date": "2026-07-13T22:04:00-04:00",
       "impact": "Low",
-      "forecast": "121.4B",
+      "forecast": "119.5B",
       "previous": "105.4B"
     },
     {
@@ -118,7 +118,7 @@
       "country": "EUR",
       "date": "2026-07-14T02:00:00-04:00",
       "impact": "Low",
-      "forecast": "0.2%",
+      "forecast": "0.5%",
       "previous": "-0.6%"
     },
     {
@@ -157,7 +157,7 @@
       "title": "BOE Gov Bailey Speaks",
       "country": "GBP",
       "date": "2026-07-14T04:45:00-04:00",
-      "impact": "High",
+      "impact": "Medium",
       "forecast": "",
       "previous": ""
     },
@@ -166,7 +166,7 @@
       "country": "USD",
       "date": "2026-07-14T06:00:00-04:00",
       "impact": "Low",
-      "forecast": "95.6",
+      "forecast": "95.8",
       "previous": "95.3"
     },
     {
@@ -318,7 +318,7 @@
       "country": "CNY",
       "date": "2026-07-14T22:00:00-04:00",
       "impact": "Low",
-      "forecast": "4.6%",
+      "forecast": "4.7%",
       "previous": "4.5%"
     },
     {
@@ -458,20 +458,20 @@
       "previous": ""
     },
     {
-      "title": "BOC Press Conference",
-      "country": "CAD",
-      "date": "2026-07-15T10:30:00-04:00",
-      "impact": "High",
-      "forecast": "",
-      "previous": ""
-    },
-    {
       "title": "Crude Oil Inventories",
       "country": "USD",
       "date": "2026-07-15T10:30:00-04:00",
       "impact": "Low",
       "forecast": "",
       "previous": "3.0M"
+    },
+    {
+      "title": "BOC Press Conference",
+      "country": "CAD",
+      "date": "2026-07-15T10:45:00-04:00",
+      "impact": "High",
+      "forecast": "",
+      "previous": ""
     },
     {
       "title": "German Buba President Nagel Speaks",
@@ -798,22 +798,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-07-13T10:51:59.190367+00:00",
-        "price": 4056.100098
-      },
-      {
-        "t": "2026-07-13T10:59:56.433535+00:00",
-        "price": 4062.100098
+        "t": "2026-07-13T17:02:28.863224+00:00",
+        "price": 3996.399902
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-07-13T10:51:59.190367+00:00",
-        "price": 58.540001
-      },
-      {
-        "t": "2026-07-13T10:59:56.433535+00:00",
-        "price": 58.625
+        "t": "2026-07-13T17:02:28.863224+00:00",
+        "price": 57.777
       }
     ]
   }
