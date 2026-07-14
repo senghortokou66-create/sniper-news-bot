@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-07-14T12:02:44.200162+00:00",
-  "last_calendar_fetch": "2026-07-14T12:02:45.864643+00:00",
+  "last_calendar_fetch": "2026-07-14T16:47:48.529724+00:00",
   "calendar_cache": [
     {
       "title": "BusinessNZ Services Index",
@@ -462,7 +462,7 @@
       "country": "USD",
       "date": "2026-07-15T10:30:00-04:00",
       "impact": "Low",
-      "forecast": "",
+      "forecast": "-2.4M",
       "previous": "3.0M"
     },
     {
@@ -706,6 +706,14 @@
       "previous": ""
     },
     {
+      "title": "President Trump Speaks",
+      "country": "USD",
+      "date": "2026-07-16T21:00:00-04:00",
+      "impact": "Medium",
+      "forecast": "",
+      "previous": ""
+    },
+    {
       "title": "Current Account",
       "country": "EUR",
       "date": "2026-07-17T04:00:00-04:00",
@@ -798,22 +806,22 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-07-14T07:22:27.325319+00:00",
-        "price": 4028.600098
-      },
-      {
         "t": "2026-07-14T12:02:44.801836+00:00",
         "price": 4032.699951
+      },
+      {
+        "t": "2026-07-14T16:47:48.028425+00:00",
+        "price": 4059.899902
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-07-14T07:22:27.325319+00:00",
-        "price": 58.290001
-      },
-      {
         "t": "2026-07-14T12:02:44.801836+00:00",
         "price": 58.118
+      },
+      {
+        "t": "2026-07-14T16:47:48.028425+00:00",
+        "price": 58.832001
       }
     ]
   }
