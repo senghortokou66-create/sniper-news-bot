@@ -6,8 +6,8 @@
   "RSAFS": "2026-05-01",
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
-  "last_heartbeat": "2026-07-07T09:56:41.590910+00:00",
-  "last_calendar_fetch": "2026-07-14T07:22:28.157506+00:00",
+  "last_heartbeat": "2026-07-14T12:02:44.200162+00:00",
+  "last_calendar_fetch": "2026-07-14T12:02:45.864643+00:00",
   "calendar_cache": [
     {
       "title": "BusinessNZ Services Index",
@@ -136,22 +136,6 @@
       "impact": "Low",
       "forecast": "-0.5%",
       "previous": "-0.4%"
-    },
-    {
-      "title": "M2 Money Supply y/y",
-      "country": "CNY",
-      "date": "2026-07-14T04:03:00-04:00",
-      "impact": "Low",
-      "forecast": "8.5%",
-      "previous": "8.6%"
-    },
-    {
-      "title": "New Loans",
-      "country": "CNY",
-      "date": "2026-07-14T04:03:00-04:00",
-      "impact": "Low",
-      "forecast": "1950B",
-      "previous": "520B"
     },
     {
       "title": "BOE Gov Bailey Speaks",
@@ -360,6 +344,22 @@
       "impact": "Low",
       "forecast": "0.3%",
       "previous": "0.1%"
+    },
+    {
+      "title": "M2 Money Supply y/y",
+      "country": "CNY",
+      "date": "2026-07-15T05:33:00-04:00",
+      "impact": "Low",
+      "forecast": "8.5%",
+      "previous": "8.6%"
+    },
+    {
+      "title": "New Loans",
+      "country": "CNY",
+      "date": "2026-07-15T05:33:00-04:00",
+      "impact": "Low",
+      "forecast": "1950B",
+      "previous": "520B"
     },
     {
       "title": "German 30-y Bond Auction",
@@ -800,12 +800,20 @@
       {
         "t": "2026-07-14T07:22:27.325319+00:00",
         "price": 4028.600098
+      },
+      {
+        "t": "2026-07-14T12:02:44.801836+00:00",
+        "price": 4032.699951
       }
     ],
     "XAGUSD": [
       {
         "t": "2026-07-14T07:22:27.325319+00:00",
         "price": 58.290001
+      },
+      {
+        "t": "2026-07-14T12:02:44.801836+00:00",
+        "price": 58.118
       }
     ]
   }
