@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-07-14T12:02:44.200162+00:00",
-  "last_calendar_fetch": "2026-07-16T17:48:23.652792+00:00",
+  "last_calendar_fetch": "2026-07-16T21:46:06.925047+00:00",
   "calendar_cache": [
     {
       "title": "BusinessNZ Services Index",
@@ -682,14 +682,6 @@
       "previous": ""
     },
     {
-      "title": "Treasury Currency Report",
-      "country": "USD",
-      "date": "2026-07-16T16:00:00-04:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": ""
-    },
-    {
       "title": "FPI m/m",
       "country": "NZD",
       "date": "2026-07-16T18:45:00-04:00",
@@ -800,28 +792,36 @@
       "impact": "Medium",
       "forecast": "",
       "previous": "4.6%"
+    },
+    {
+      "title": "Treasury Currency Report",
+      "country": "USD",
+      "date": "2026-07-17T16:30:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": ""
     }
   ],
   "processed_events": [],
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-07-16T13:06:26.550354+00:00",
-        "price": 3984.800049
-      },
-      {
         "t": "2026-07-16T17:48:23.145928+00:00",
         "price": 3985.800049
+      },
+      {
+        "t": "2026-07-16T21:46:06.398470+00:00",
+        "price": 3977.199951
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-07-16T13:06:26.550354+00:00",
-        "price": 55.820999
-      },
-      {
         "t": "2026-07-16T17:48:23.145928+00:00",
         "price": 55.842999
+      },
+      {
+        "t": "2026-07-16T21:46:06.398470+00:00",
+        "price": 55.643002
       }
     ]
   }
