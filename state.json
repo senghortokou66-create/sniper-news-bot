@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-07-14T12:02:44.200162+00:00",
-  "last_calendar_fetch": "2026-07-19T21:36:46.211585+00:00",
+  "last_calendar_fetch": "2026-07-20T08:28:23.886563+00:00",
   "calendar_cache": [
     {
       "title": "Trade Balance",
@@ -56,14 +56,6 @@
       "impact": "Low",
       "forecast": "-0.2%",
       "previous": "0.3%"
-    },
-    {
-      "title": "Foreign Direct Investment ytd/y",
-      "country": "CNY",
-      "date": "2026-07-20T02:02:00-04:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": "-8.6%"
     },
     {
       "title": "CPI m/m",
@@ -152,6 +144,14 @@
       "impact": "Low",
       "forecast": "4.9%",
       "previous": "4.9%"
+    },
+    {
+      "title": "Foreign Direct Investment ytd/y",
+      "country": "CNY",
+      "date": "2026-07-21T02:02:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": "-8.6%"
     },
     {
       "title": "ZEW Economic Sentiment",
@@ -566,22 +566,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-07-19T18:42:49.256079+00:00",
-        "price": 4019.300049
-      },
-      {
-        "t": "2026-07-19T21:36:46.041960+00:00",
-        "price": 4019.300049
+        "t": "2026-07-20T08:28:23.041726+00:00",
+        "price": 4027.0
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-07-19T18:42:49.256079+00:00",
-        "price": 56.080002
-      },
-      {
-        "t": "2026-07-19T21:36:46.041960+00:00",
-        "price": 56.080002
+        "t": "2026-07-20T08:28:23.041726+00:00",
+        "price": 57.261002
       }
     ]
   }
