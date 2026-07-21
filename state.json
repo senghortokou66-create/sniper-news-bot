@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-07-14T12:02:44.200162+00:00",
-  "last_calendar_fetch": "2026-07-21T00:15:29.697479+00:00",
+  "last_calendar_fetch": "2026-07-21T09:44:06.252353+00:00",
   "calendar_cache": [
     {
       "title": "Trade Balance",
@@ -146,12 +146,12 @@
       "previous": "4.9%"
     },
     {
-      "title": "Foreign Direct Investment ytd/y",
-      "country": "CNY",
-      "date": "2026-07-21T02:02:00-04:00",
+      "title": "German ZEW Economic Sentiment",
+      "country": "EUR",
+      "date": "2026-07-21T05:00:00-04:00",
       "impact": "Low",
-      "forecast": "",
-      "previous": "-8.6%"
+      "forecast": "15.1",
+      "previous": "10.5"
     },
     {
       "title": "ZEW Economic Sentiment",
@@ -160,14 +160,6 @@
       "impact": "Low",
       "forecast": "11.2",
       "previous": "9.5"
-    },
-    {
-      "title": "German ZEW Economic Sentiment",
-      "country": "EUR",
-      "date": "2026-07-21T05:00:00-04:00",
-      "impact": "Low",
-      "forecast": "15.1",
-      "previous": "10.5"
     },
     {
       "title": "German Buba President Nagel Speaks",
@@ -264,6 +256,14 @@
       "impact": "Low",
       "forecast": "3.0%",
       "previous": "3.1%"
+    },
+    {
+      "title": "Foreign Direct Investment ytd/y",
+      "country": "CNY",
+      "date": "2026-07-22T02:02:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": "-8.6%"
     },
     {
       "title": "HPI y/y",
@@ -566,22 +566,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-07-20T20:46:35.838733+00:00",
-        "price": 4010.0
-      },
-      {
-        "t": "2026-07-21T00:15:28.747614+00:00",
-        "price": 4013.399902
+        "t": "2026-07-21T09:44:05.398821+00:00",
+        "price": 4062.199951
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-07-20T20:46:35.838733+00:00",
-        "price": 56.556999
-      },
-      {
-        "t": "2026-07-21T00:15:28.747614+00:00",
-        "price": 56.561001
+        "t": "2026-07-21T09:44:05.398821+00:00",
+        "price": 59.210999
       }
     ]
   }
