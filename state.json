@@ -6,8 +6,8 @@
   "RSAFS": "2026-05-01",
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
-  "last_heartbeat": "2026-07-14T12:02:44.200162+00:00",
-  "last_calendar_fetch": "2026-07-21T09:44:06.252353+00:00",
+  "last_heartbeat": "2026-07-21T15:55:46.655251+00:00",
+  "last_calendar_fetch": "2026-07-21T15:55:47.673084+00:00",
   "calendar_cache": [
     {
       "title": "Trade Balance",
@@ -180,7 +180,7 @@
     {
       "title": "GDT Price Index",
       "country": "NZD",
-      "date": "2026-07-21T10:50:00-04:00",
+      "date": "2026-07-21T11:16:00-04:00",
       "impact": "Low",
       "forecast": "",
       "previous": "-4.9%"
@@ -278,7 +278,7 @@
       "country": "USD",
       "date": "2026-07-22T10:30:00-04:00",
       "impact": "Low",
-      "forecast": "",
+      "forecast": "-2.0M",
       "previous": "-1.7M"
     },
     {
@@ -374,7 +374,7 @@
       "country": "USD",
       "date": "2026-07-23T10:30:00-04:00",
       "impact": "Low",
-      "forecast": "",
+      "forecast": "29B",
       "previous": "41B"
     },
     {
@@ -566,14 +566,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-07-21T09:44:05.398821+00:00",
-        "price": 4062.199951
+        "t": "2026-07-21T15:55:47.373963+00:00",
+        "price": 4077.600098
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-07-21T09:44:05.398821+00:00",
-        "price": 59.210999
+        "t": "2026-07-21T15:55:47.373963+00:00",
+        "price": 59.094002
       }
     ]
   }
