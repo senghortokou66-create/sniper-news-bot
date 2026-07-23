@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-07-21T15:55:46.655251+00:00",
-  "last_calendar_fetch": "2026-07-23T16:02:53.101578+00:00",
+  "last_calendar_fetch": "2026-07-23T20:19:45.910756+00:00",
   "calendar_cache": [
     {
       "title": "Trade Balance",
@@ -298,6 +298,14 @@
       "previous": "4.4%"
     },
     {
+      "title": "Foreign Direct Investment ytd/y",
+      "country": "CNY",
+      "date": "2026-07-23T04:56:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": "-8.6%"
+    },
+    {
       "title": "CBI Industrial Order Expectations",
       "country": "GBP",
       "date": "2026-07-23T06:00:00-04:00",
@@ -442,14 +450,6 @@
       "previous": "1.2%"
     },
     {
-      "title": "Foreign Direct Investment ytd/y",
-      "country": "CNY",
-      "date": "2026-07-24T02:02:00-04:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": "-8.6%"
-    },
-    {
       "title": "French Flash Manufacturing PMI",
       "country": "EUR",
       "date": "2026-07-24T03:15:00-04:00",
@@ -576,12 +576,20 @@
       {
         "t": "2026-07-23T16:02:52.657867+00:00",
         "price": 4051.0
+      },
+      {
+        "t": "2026-07-23T20:19:45.347852+00:00",
+        "price": 4049.600098
       }
     ],
     "XAGUSD": [
       {
         "t": "2026-07-23T16:02:52.657867+00:00",
         "price": 57.790001
+      },
+      {
+        "t": "2026-07-23T20:19:45.347852+00:00",
+        "price": 57.714001
       }
     ]
   }
