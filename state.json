@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-07-21T15:55:46.655251+00:00",
-  "last_calendar_fetch": "2026-07-24T13:08:11.362664+00:00",
+  "last_calendar_fetch": "2026-07-24T18:06:20.336667+00:00",
   "calendar_cache": [
     {
       "title": "Trade Balance",
@@ -568,6 +568,14 @@
       "impact": "Low",
       "forecast": "609K",
       "previous": "580K"
+    },
+    {
+      "title": "President Trump Speaks",
+      "country": "USD",
+      "date": "2026-07-24T20:55:00-04:00",
+      "impact": "Medium",
+      "forecast": "",
+      "previous": ""
     }
   ],
   "processed_events": [],
@@ -576,12 +584,20 @@
       {
         "t": "2026-07-24T13:08:10.547563+00:00",
         "price": 4050.199951
+      },
+      {
+        "t": "2026-07-24T18:06:19.137507+00:00",
+        "price": 4064.0
       }
     ],
     "XAGUSD": [
       {
         "t": "2026-07-24T13:08:10.547563+00:00",
         "price": 58.160999
+      },
+      {
+        "t": "2026-07-24T18:06:19.137507+00:00",
+        "price": 58.665001
       }
     ]
   }
