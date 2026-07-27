@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-07-21T15:55:46.655251+00:00",
-  "last_calendar_fetch": "2026-07-27T12:40:49.302820+00:00",
+  "last_calendar_fetch": "2026-07-27T18:14:22.106495+00:00",
   "calendar_cache": [
     {
       "title": "SPPI y/y",
@@ -72,6 +72,14 @@
       "impact": "Low",
       "forecast": "1.6%",
       "previous": "-4.5%"
+    },
+    {
+      "title": "President Trump Speaks",
+      "country": "USD",
+      "date": "2026-07-27T14:50:00-04:00",
+      "impact": "Medium",
+      "forecast": "",
+      "previous": ""
     },
     {
       "title": "BRC Shop Price Index y/y",
@@ -734,14 +742,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-07-27T12:40:49.116667+00:00",
-        "price": 4088.300049
+        "t": "2026-07-27T18:14:21.014857+00:00",
+        "price": 4078.5
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-07-27T12:40:49.116667+00:00",
-        "price": 59.115002
+        "t": "2026-07-27T18:14:21.014857+00:00",
+        "price": 58.546001
       }
     ]
   }
