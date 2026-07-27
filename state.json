@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-07-21T15:55:46.655251+00:00",
-  "last_calendar_fetch": "2026-07-27T18:14:22.106495+00:00",
+  "last_calendar_fetch": "2026-07-27T22:16:48.090207+00:00",
   "calendar_cache": [
     {
       "title": "SPPI y/y",
@@ -86,7 +86,7 @@
       "country": "GBP",
       "date": "2026-07-27T19:01:00-04:00",
       "impact": "Low",
-      "forecast": "1.2%",
+      "forecast": "1.1%",
       "previous": "1.2%"
     },
     {
@@ -110,13 +110,13 @@
       "country": "EUR",
       "date": "2026-07-28T03:00:00-04:00",
       "impact": "Low",
-      "forecast": "10.7%",
+      "forecast": "10.1%",
       "previous": "10.8%"
     },
     {
       "title": "German Buba Monthly Report",
       "country": "EUR",
-      "date": "2026-07-28T06:03:00-04:00",
+      "date": "2026-07-28T06:00:00-04:00",
       "impact": "Low",
       "forecast": "",
       "previous": ""
@@ -134,7 +134,7 @@
       "country": "USD",
       "date": "2026-07-28T08:30:00-04:00",
       "impact": "Low",
-      "forecast": "-98.0B",
+      "forecast": "-100.3B",
       "previous": "-105.8B"
     },
     {
@@ -142,7 +142,7 @@
       "country": "USD",
       "date": "2026-07-28T08:30:00-04:00",
       "impact": "Low",
-      "forecast": "0.2%",
+      "forecast": "0.4%",
       "previous": "0.3%"
     },
     {
@@ -150,7 +150,7 @@
       "country": "USD",
       "date": "2026-07-28T09:00:00-04:00",
       "impact": "Low",
-      "forecast": "0.2%",
+      "forecast": "0.1%",
       "previous": "-0.1%"
     },
     {
@@ -158,7 +158,7 @@
       "country": "USD",
       "date": "2026-07-28T09:00:00-04:00",
       "impact": "Low",
-      "forecast": "0.8%",
+      "forecast": "1.3%",
       "previous": "1.1%"
     },
     {
@@ -166,7 +166,7 @@
       "country": "USD",
       "date": "2026-07-28T10:00:00-04:00",
       "impact": "Medium",
-      "forecast": "92.1",
+      "forecast": "92.4",
       "previous": "91.2"
     },
     {
@@ -174,7 +174,7 @@
       "country": "USD",
       "date": "2026-07-28T10:00:00-04:00",
       "impact": "Low",
-      "forecast": "",
+      "forecast": "7",
       "previous": "4"
     },
     {
@@ -206,7 +206,7 @@
       "country": "AUD",
       "date": "2026-07-28T21:30:00-04:00",
       "impact": "High",
-      "forecast": "0.4%",
+      "forecast": "0.3%",
       "previous": "0.4%"
     },
     {
@@ -214,7 +214,7 @@
       "country": "EUR",
       "date": "2026-07-29T02:00:00-04:00",
       "impact": "Low",
-      "forecast": "-0.8%",
+      "forecast": "-0.7%",
       "previous": "0.7%"
     },
     {
@@ -238,7 +238,7 @@
       "country": "GBP",
       "date": "2026-07-29T04:30:00-04:00",
       "impact": "Low",
-      "forecast": "56K",
+      "forecast": "57K",
       "previous": "56K"
     },
     {
@@ -262,7 +262,7 @@
       "country": "USD",
       "date": "2026-07-29T10:30:00-04:00",
       "impact": "Low",
-      "forecast": "",
+      "forecast": "-1.7M",
       "previous": "2.0M"
     },
     {
@@ -318,7 +318,7 @@
       "country": "AUD",
       "date": "2026-07-29T21:30:00-04:00",
       "impact": "Low",
-      "forecast": "-0.5%",
+      "forecast": "-0.7%",
       "previous": "-1.1%"
     },
     {
@@ -374,7 +374,7 @@
       "country": "CHF",
       "date": "2026-07-30T03:00:00-04:00",
       "impact": "Low",
-      "forecast": "100.7",
+      "forecast": "100.9",
       "previous": "101.2"
     },
     {
@@ -382,7 +382,7 @@
       "country": "EUR",
       "date": "2026-07-30T03:00:00-04:00",
       "impact": "Low",
-      "forecast": "3.1%",
+      "forecast": "3.2%",
       "previous": "3.2%"
     },
     {
@@ -414,7 +414,7 @@
       "country": "EUR",
       "date": "2026-07-30T05:00:00-04:00",
       "impact": "Low",
-      "forecast": "5.1%",
+      "forecast": "5.0%",
       "previous": "5.0%"
     },
     {
@@ -439,7 +439,7 @@
       "date": "2026-07-30T05:33:00-04:00",
       "impact": "Low",
       "forecast": "",
-      "previous": ""
+      "previous": "3.63|1.7"
     },
     {
       "title": "BOE Monetary Policy Report",
@@ -474,11 +474,19 @@
       "previous": "3.75%"
     },
     {
+      "title": "BOE Gov Bailey Speaks",
+      "country": "GBP",
+      "date": "2026-07-30T07:30:00-04:00",
+      "impact": "High",
+      "forecast": "",
+      "previous": ""
+    },
+    {
       "title": "Advance GDP q/q",
       "country": "USD",
       "date": "2026-07-30T08:30:00-04:00",
       "impact": "High",
-      "forecast": "2.3%",
+      "forecast": "2.0%",
       "previous": "2.0%"
     },
     {
@@ -486,7 +494,7 @@
       "country": "USD",
       "date": "2026-07-30T08:30:00-04:00",
       "impact": "High",
-      "forecast": "0.1%",
+      "forecast": "0.2%",
       "previous": "0.3%"
     },
     {
@@ -494,7 +502,7 @@
       "country": "USD",
       "date": "2026-07-30T08:30:00-04:00",
       "impact": "Medium",
-      "forecast": "3.7%",
+      "forecast": "4.1%",
       "previous": "3.6%"
     },
     {
@@ -502,7 +510,7 @@
       "country": "USD",
       "date": "2026-07-30T08:30:00-04:00",
       "impact": "Medium",
-      "forecast": "206K",
+      "forecast": "201K",
       "previous": "187K"
     },
     {
@@ -550,7 +558,7 @@
       "country": "JPY",
       "date": "2026-07-30T19:50:00-04:00",
       "impact": "Low",
-      "forecast": "0.7%",
+      "forecast": "1.0%",
       "previous": "0.5%"
     },
     {
@@ -558,7 +566,7 @@
       "country": "JPY",
       "date": "2026-07-30T19:50:00-04:00",
       "impact": "Low",
-      "forecast": "2.8%",
+      "forecast": "3.1%",
       "previous": "5.3%"
     },
     {
@@ -566,7 +574,7 @@
       "country": "AUD",
       "date": "2026-07-30T21:30:00-04:00",
       "impact": "Low",
-      "forecast": "0.3%",
+      "forecast": "0.5%",
       "previous": "0.4%"
     },
     {
@@ -582,7 +590,7 @@
       "country": "CNY",
       "date": "2026-07-30T21:30:00-04:00",
       "impact": "Low",
-      "forecast": "49.9",
+      "forecast": "50.1",
       "previous": "50.3"
     },
     {
@@ -622,7 +630,7 @@
       "country": "JPY",
       "date": "2026-07-31T01:00:00-04:00",
       "impact": "Low",
-      "forecast": "13.2%",
+      "forecast": "12.7%",
       "previous": "33.9%"
     },
     {
@@ -638,7 +646,7 @@
       "country": "GBP",
       "date": "2026-07-31T02:00:00-04:00",
       "impact": "Low",
-      "forecast": "",
+      "forecast": "0.1%",
       "previous": "0.0%"
     },
     {
@@ -646,7 +654,7 @@
       "country": "CHF",
       "date": "2026-07-31T02:30:00-04:00",
       "impact": "Low",
-      "forecast": "3.2%",
+      "forecast": "3.1%",
       "previous": "3.5%"
     },
     {
@@ -686,7 +694,7 @@
       "country": "EUR",
       "date": "2026-07-31T05:00:00-04:00",
       "impact": "Low",
-      "forecast": "0.1%",
+      "forecast": "0.3%",
       "previous": "0.0%"
     },
     {
@@ -718,7 +726,7 @@
       "country": "USD",
       "date": "2026-07-31T09:45:00-04:00",
       "impact": "Low",
-      "forecast": "57.5",
+      "forecast": "55.9",
       "previous": "56.7"
     },
     {
@@ -726,7 +734,7 @@
       "country": "USD",
       "date": "2026-07-31T10:00:00-04:00",
       "impact": "Medium",
-      "forecast": "54.2",
+      "forecast": "53.9",
       "previous": "54.4"
     },
     {
@@ -744,12 +752,20 @@
       {
         "t": "2026-07-27T18:14:21.014857+00:00",
         "price": 4078.5
+      },
+      {
+        "t": "2026-07-27T22:16:47.386231+00:00",
+        "price": 4077.300049
       }
     ],
     "XAGUSD": [
       {
         "t": "2026-07-27T18:14:21.014857+00:00",
         "price": 58.546001
+      },
+      {
+        "t": "2026-07-27T22:16:47.386231+00:00",
+        "price": 58.548
       }
     ]
   }
