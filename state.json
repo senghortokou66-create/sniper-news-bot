@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-07-28T16:09:43.700945+00:00",
-  "last_calendar_fetch": "2026-07-30T09:37:11.898721+00:00",
+  "last_calendar_fetch": "2026-07-30T16:01:25.858291+00:00",
   "calendar_cache": [
     {
       "title": "SPPI y/y",
@@ -436,7 +436,7 @@
     {
       "title": "Italian 10-y Bond Auction",
       "country": "EUR",
-      "date": "2026-07-30T05:33:00-04:00",
+      "date": "2026-07-30T05:06:00-04:00",
       "impact": "Low",
       "forecast": "",
       "previous": "3.63|1.7"
@@ -476,7 +476,7 @@
     {
       "title": "BOE Gov Bailey Speaks",
       "country": "GBP",
-      "date": "2026-07-30T07:30:00-04:00",
+      "date": "2026-07-30T08:00:00-04:00",
       "impact": "High",
       "forecast": "",
       "previous": ""
@@ -750,14 +750,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-07-30T09:37:11.216931+00:00",
-        "price": 4066.800049
+        "t": "2026-07-30T16:01:25.200882+00:00",
+        "price": 4112.100098
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-07-30T09:37:11.216931+00:00",
-        "price": 57.907001
+        "t": "2026-07-30T16:01:25.200882+00:00",
+        "price": 58.826
       }
     ]
   }
