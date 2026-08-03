@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-07-28T16:09:43.700945+00:00",
-  "last_calendar_fetch": "2026-08-02T23:44:15.360456+00:00",
+  "last_calendar_fetch": "2026-08-03T12:38:26.091299+00:00",
   "calendar_cache": [
     {
       "title": "OPEC-JMMC Meetings",
@@ -474,6 +474,14 @@
       "previous": ""
     },
     {
+      "title": "FOMC Member Daly Speaks",
+      "country": "USD",
+      "date": "2026-08-05T20:35:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": ""
+    },
+    {
       "title": "Goods Trade Balance",
       "country": "AUD",
       "date": "2026-08-05T21:30:00-04:00",
@@ -754,6 +762,14 @@
       "previous": "-0.2B"
     },
     {
+      "title": "FOMC Member Bowman Speaks",
+      "country": "USD",
+      "date": "2026-08-08T12:45:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": ""
+    },
+    {
       "title": "CPI y/y",
       "country": "CNY",
       "date": "2026-08-08T21:30:00-04:00",
@@ -774,22 +790,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-08-02T20:02:09.109730+00:00",
-        "price": 4043.699951
-      },
-      {
-        "t": "2026-08-02T23:44:14.554045+00:00",
-        "price": 4070.0
+        "t": "2026-08-03T12:38:25.413863+00:00",
+        "price": 4048.100098
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-08-02T20:02:09.109730+00:00",
-        "price": 57.689999
-      },
-      {
-        "t": "2026-08-02T23:44:14.554045+00:00",
-        "price": 58.362
+        "t": "2026-08-03T12:38:25.413863+00:00",
+        "price": 57.661999
       }
     ]
   }
