@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-07-28T16:09:43.700945+00:00",
-  "last_calendar_fetch": "2026-08-04T13:24:32.215414+00:00",
+  "last_calendar_fetch": "2026-08-04T15:56:10.938527+00:00",
   "calendar_cache": [
     {
       "title": "OPEC-JMMC Meetings",
@@ -292,7 +292,7 @@
     {
       "title": "RCM/TIPP Economic Optimism",
       "country": "USD",
-      "date": "2026-08-04T10:10:00-04:00",
+      "date": "2026-08-04T10:13:00-04:00",
       "impact": "Low",
       "forecast": "47.5",
       "previous": "45.5"
@@ -300,7 +300,7 @@
     {
       "title": "GDT Price Index",
       "country": "NZD",
-      "date": "2026-08-04T10:50:00-04:00",
+      "date": "2026-08-04T11:14:00-04:00",
       "impact": "Low",
       "forecast": "",
       "previous": "1.5%"
@@ -470,7 +470,7 @@
       "country": "USD",
       "date": "2026-08-05T10:30:00-04:00",
       "impact": "Low",
-      "forecast": "",
+      "forecast": "-0.9M",
       "previous": "-7.2M"
     },
     {
@@ -812,16 +812,16 @@
     ],
     "XAGUSD": [
       {
-        "t": "2026-08-04T09:23:31.496128+00:00",
-        "price": 58.772999
-      },
-      {
         "t": "2026-08-04T11:39:54.970791+00:00",
         "price": 59.154999
       },
       {
         "t": "2026-08-04T13:24:31.247952+00:00",
         "price": 59.959999
+      },
+      {
+        "t": "2026-08-04T15:56:10.646856+00:00",
+        "price": 59.891998
       }
     ]
   }
