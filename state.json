@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-08-11T18:38:14.364432+00:00",
-  "last_calendar_fetch": "2026-08-13T09:15:06.520568+00:00",
+  "last_calendar_fetch": "2026-08-13T10:31:15.393654+00:00",
   "calendar_cache": [
     {
       "title": "Bank Lending y/y",
@@ -378,22 +378,6 @@
       "previous": "-0.2%"
     },
     {
-      "title": "M2 Money Supply y/y",
-      "country": "CNY",
-      "date": "2026-08-13T05:03:00-04:00",
-      "impact": "Low",
-      "forecast": "7.9%",
-      "previous": "8.0%"
-    },
-    {
-      "title": "New Loans",
-      "country": "CNY",
-      "date": "2026-08-13T05:03:00-04:00",
-      "impact": "Low",
-      "forecast": "-50B",
-      "previous": "1610B"
-    },
-    {
       "title": "FOMC Member Hammack Speaks",
       "country": "USD",
       "date": "2026-08-13T08:15:00-04:00",
@@ -546,6 +530,22 @@
       "previous": "-5.0B"
     },
     {
+      "title": "M2 Money Supply y/y",
+      "country": "CNY",
+      "date": "2026-08-14T05:03:00-04:00",
+      "impact": "Low",
+      "forecast": "7.9%",
+      "previous": "8.0%"
+    },
+    {
+      "title": "New Loans",
+      "country": "CNY",
+      "date": "2026-08-14T05:03:00-04:00",
+      "impact": "Low",
+      "forecast": "-50B",
+      "previous": "1610B"
+    },
+    {
       "title": "Manufacturing Sales m/m",
       "country": "CAD",
       "date": "2026-08-14T08:30:00-04:00",
@@ -606,10 +606,6 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-08-13T04:30:18.378362+00:00",
-        "price": 4399.200195
-      },
-      {
         "t": "2026-08-13T06:06:06.705612+00:00",
         "price": 4379.399902
       },
@@ -620,13 +616,13 @@
       {
         "t": "2026-08-13T09:15:05.712222+00:00",
         "price": 4378.799805
+      },
+      {
+        "t": "2026-08-13T10:31:14.425958+00:00",
+        "price": 4388.299805
       }
     ],
     "XAGUSD": [
-      {
-        "t": "2026-08-13T04:30:18.378362+00:00",
-        "price": 65.410004
-      },
       {
         "t": "2026-08-13T06:06:06.705612+00:00",
         "price": 65.086998
@@ -638,6 +634,10 @@
       {
         "t": "2026-08-13T09:15:05.712222+00:00",
         "price": 64.602997
+      },
+      {
+        "t": "2026-08-13T10:31:14.425958+00:00",
+        "price": 65.011002
       }
     ]
   }
