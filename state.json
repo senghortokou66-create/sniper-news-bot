@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-08-11T18:38:14.364432+00:00",
-  "last_calendar_fetch": "2026-08-13T20:21:33.393559+00:00",
+  "last_calendar_fetch": "2026-08-13T21:22:02.948661+00:00",
   "calendar_cache": [
     {
       "title": "Bank Lending y/y",
@@ -458,6 +458,14 @@
       "previous": "5.06|2.4"
     },
     {
+      "title": "FOMC Member Goolsbee Speaks",
+      "country": "USD",
+      "date": "2026-08-13T18:00:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": ""
+    },
+    {
       "title": "BusinessNZ Manufacturing Index",
       "country": "NZD",
       "date": "2026-08-13T18:30:00-04:00",
@@ -624,6 +632,10 @@
       {
         "t": "2026-08-13T20:21:32.761218+00:00",
         "price": 4351.399902
+      },
+      {
+        "t": "2026-08-13T21:22:02.592527+00:00",
+        "price": 4352.299805
       }
     ],
     "XAGUSD": [
@@ -646,6 +658,10 @@
       {
         "t": "2026-08-13T20:21:32.761218+00:00",
         "price": 64.543999
+      },
+      {
+        "t": "2026-08-13T21:22:02.592527+00:00",
+        "price": 64.570999
       }
     ]
   }
