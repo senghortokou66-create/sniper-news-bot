@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-08-11T18:38:14.364432+00:00",
-  "last_calendar_fetch": "2026-08-14T07:51:00.131800+00:00",
+  "last_calendar_fetch": "2026-08-14T09:09:32.050998+00:00",
   "calendar_cache": [
     {
       "title": "Bank Lending y/y",
@@ -498,6 +498,22 @@
       "previous": "0.6%"
     },
     {
+      "title": "M2 Money Supply y/y",
+      "country": "CNY",
+      "date": "2026-08-14T04:01:00-04:00",
+      "impact": "Low",
+      "forecast": "7.9%",
+      "previous": "8.0%"
+    },
+    {
+      "title": "New Loans",
+      "country": "CNY",
+      "date": "2026-08-14T04:02:00-04:00",
+      "impact": "Low",
+      "forecast": "-50B",
+      "previous": "1610B"
+    },
+    {
       "title": "Flash Employment Change q/q",
       "country": "EUR",
       "date": "2026-08-14T05:00:00-04:00",
@@ -520,22 +536,6 @@
       "impact": "Low",
       "forecast": "-2.2B",
       "previous": "-5.0B"
-    },
-    {
-      "title": "M2 Money Supply y/y",
-      "country": "CNY",
-      "date": "2026-08-14T05:03:00-04:00",
-      "impact": "Low",
-      "forecast": "7.9%",
-      "previous": "8.0%"
-    },
-    {
-      "title": "New Loans",
-      "country": "CNY",
-      "date": "2026-08-14T05:03:00-04:00",
-      "impact": "Low",
-      "forecast": "-50B",
-      "previous": "1610B"
     },
     {
       "title": "Manufacturing Sales m/m",
@@ -608,6 +608,10 @@
       {
         "t": "2026-08-14T07:50:59.206256+00:00",
         "price": 4343.700195
+      },
+      {
+        "t": "2026-08-14T09:09:31.210946+00:00",
+        "price": 4348.600098
       }
     ],
     "XAGUSD": [
@@ -622,6 +626,10 @@
       {
         "t": "2026-08-14T07:50:59.206256+00:00",
         "price": 64.759003
+      },
+      {
+        "t": "2026-08-14T09:09:31.210946+00:00",
+        "price": 64.835999
       }
     ]
   }
