@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-08-18T18:59:48.416451+00:00",
-  "last_calendar_fetch": "2026-08-24T15:00:54.748827+00:00",
+  "last_calendar_fetch": "2026-08-24T15:56:08.766773+00:00",
   "calendar_cache": [
     {
       "title": "Core Retail Sales q/q",
@@ -36,7 +36,7 @@
     {
       "title": "Treasury Sec Bessent Speaks",
       "country": "USD",
-      "date": "2026-08-24T14:00:00-04:00",
+      "date": "2026-08-24T13:00:00-04:00",
       "impact": "Medium",
       "forecast": "",
       "previous": ""
@@ -70,7 +70,7 @@
       "country": "EUR",
       "date": "2026-08-25T04:00:00-04:00",
       "impact": "Low",
-      "forecast": "87.3",
+      "forecast": "87.2",
       "previous": "86.6"
     },
     {
@@ -80,6 +80,14 @@
       "impact": "Low",
       "forecast": "",
       "previous": "9.5K"
+    },
+    {
+      "title": "FOMC Member Barkin Speaks",
+      "country": "USD",
+      "date": "2026-08-25T08:30:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": ""
     },
     {
       "title": "Belgian NBB Business Climate",
@@ -102,7 +110,7 @@
       "country": "USD",
       "date": "2026-08-25T09:00:00-04:00",
       "impact": "Low",
-      "forecast": "1.9%",
+      "forecast": "1.8%",
       "previous": "1.6%"
     },
     {
@@ -126,8 +134,16 @@
       "country": "USD",
       "date": "2026-08-25T10:00:00-04:00",
       "impact": "Low",
-      "forecast": "7",
+      "forecast": "6",
       "previous": "5"
+    },
+    {
+      "title": "FOMC Member Barkin Speaks",
+      "country": "USD",
+      "date": "2026-08-25T16:00:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": ""
     },
     {
       "title": "API Weekly Statistical Bulletin",
@@ -264,6 +280,14 @@
       "impact": "Low",
       "forecast": "",
       "previous": "4.4M"
+    },
+    {
+      "title": "FOMC Member Barkin Speaks",
+      "country": "USD",
+      "date": "2026-08-26T11:45:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": ""
     },
     {
       "title": "Gov Board Member Martin Speaks",
@@ -542,14 +566,6 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-08-24T10:11:23.433225+00:00",
-        "price": 4648.399902
-      },
-      {
-        "t": "2026-08-24T10:54:53.658834+00:00",
-        "price": 4646.799805
-      },
-      {
         "t": "2026-08-24T11:31:14.959578+00:00",
         "price": 4647.600098
       },
@@ -568,17 +584,13 @@
       {
         "t": "2026-08-24T15:00:54.577731+00:00",
         "price": 4671.5
+      },
+      {
+        "t": "2026-08-24T15:56:07.888415+00:00",
+        "price": 4654.5
       }
     ],
     "XAGUSD": [
-      {
-        "t": "2026-08-24T10:11:23.433225+00:00",
-        "price": 69.081001
-      },
-      {
-        "t": "2026-08-24T10:54:53.658834+00:00",
-        "price": 69.022003
-      },
       {
         "t": "2026-08-24T11:31:14.959578+00:00",
         "price": 69.015999
@@ -598,6 +610,10 @@
       {
         "t": "2026-08-24T15:00:54.577731+00:00",
         "price": 69.077003
+      },
+      {
+        "t": "2026-08-24T15:56:07.888415+00:00",
+        "price": 68.775002
       }
     ]
   }
