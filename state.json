@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-08-25T19:38:28.115169+00:00",
-  "last_calendar_fetch": "2026-08-28T01:09:29.114910+00:00",
+  "last_calendar_fetch": "2026-08-28T12:47:36.061017+00:00",
   "calendar_cache": [
     {
       "title": "Core Retail Sales q/q",
@@ -492,7 +492,7 @@
     {
       "title": "Italian 10-y Bond Auction",
       "country": "EUR",
-      "date": "2026-08-28T05:33:00-04:00",
+      "date": "2026-08-28T05:09:00-04:00",
       "impact": "Low",
       "forecast": "",
       "previous": "4.00|1.7"
@@ -554,6 +554,14 @@
       "previous": "4.3%"
     },
     {
+      "title": "MPC Member Mann Speaks",
+      "country": "GBP",
+      "date": "2026-08-28T10:30:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": ""
+    },
+    {
       "title": "Jackson Hole Symposium",
       "country": "All",
       "date": "2026-08-28T12:15:00-04:00",
@@ -582,14 +590,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-08-28T01:09:28.349387+00:00",
-        "price": 4599.0
+        "t": "2026-08-28T12:47:35.574591+00:00",
+        "price": 4593.200195
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-08-28T01:09:28.349387+00:00",
-        "price": 69.550003
+        "t": "2026-08-28T12:47:35.574591+00:00",
+        "price": 70.537003
       }
     ]
   }
