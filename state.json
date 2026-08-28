@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-08-25T19:38:28.115169+00:00",
-  "last_calendar_fetch": "2026-08-27T16:31:52.352941+00:00",
+  "last_calendar_fetch": "2026-08-28T01:09:29.114910+00:00",
   "calendar_cache": [
     {
       "title": "Core Retail Sales q/q",
@@ -506,6 +506,14 @@
       "previous": "0.3%"
     },
     {
+      "title": "FOMC Member Hammack Speaks",
+      "country": "USD",
+      "date": "2026-08-28T09:00:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": ""
+    },
+    {
       "title": "Chicago PMI",
       "country": "USD",
       "date": "2026-08-28T09:45:00-04:00",
@@ -574,14 +582,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-08-27T16:31:51.590247+00:00",
-        "price": 4607.700195
+        "t": "2026-08-28T01:09:28.349387+00:00",
+        "price": 4599.0
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-08-27T16:31:51.590247+00:00",
-        "price": 69.324997
+        "t": "2026-08-28T01:09:28.349387+00:00",
+        "price": 69.550003
       }
     ]
   }
