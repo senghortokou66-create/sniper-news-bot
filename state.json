@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-08-25T19:38:28.115169+00:00",
-  "last_calendar_fetch": "2026-08-30T22:45:21.797000+00:00",
+  "last_calendar_fetch": "2026-08-31T01:11:10.758662+00:00",
   "calendar_cache": [
     {
       "title": "G20 Meetings",
@@ -695,7 +695,7 @@
       "date": "2026-09-03T05:03:00-04:00",
       "impact": "Low",
       "forecast": "",
-      "previous": ""
+      "previous": "3.54|2.4"
     },
     {
       "title": "French 10-y Bond Auction",
@@ -703,7 +703,7 @@
       "date": "2026-09-03T05:18:00-04:00",
       "impact": "Low",
       "forecast": "",
-      "previous": ""
+      "previous": "3.86|3.7"
     },
     {
       "title": "Challenger Job Cuts y/y",
@@ -792,6 +792,22 @@
       "impact": "Low",
       "forecast": "",
       "previous": "15B"
+    },
+    {
+      "title": "FOMC Member Hammack Speaks",
+      "country": "USD",
+      "date": "2026-09-03T15:00:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "title": "FOMC Member Goolsbee Speaks",
+      "country": "USD",
+      "date": "2026-09-03T15:05:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": ""
     },
     {
       "title": "Household Spending y/y",
@@ -894,22 +910,22 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-08-30T20:03:05.234914+00:00",
-        "price": 4456.399902
-      },
-      {
         "t": "2026-08-30T22:45:20.975663+00:00",
         "price": 4458.799805
+      },
+      {
+        "t": "2026-08-31T01:11:10.505537+00:00",
+        "price": 4439.600098
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-08-30T20:03:05.234914+00:00",
-        "price": 66.502998
-      },
-      {
         "t": "2026-08-30T22:45:20.975663+00:00",
         "price": 66.487
+      },
+      {
+        "t": "2026-08-31T01:11:10.505537+00:00",
+        "price": 66.248001
       }
     ]
   }
