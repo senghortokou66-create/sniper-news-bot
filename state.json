@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-09-01T21:21:22.412834+00:00",
-  "last_calendar_fetch": "2026-09-03T06:24:24.867373+00:00",
+  "last_calendar_fetch": "2026-09-03T11:33:47.216930+00:00",
   "calendar_cache": [
     {
       "title": "G20 Meetings",
@@ -690,17 +690,9 @@
       "previous": "52.8"
     },
     {
-      "title": "PPI m/m",
-      "country": "EUR",
-      "date": "2026-09-03T05:00:00-04:00",
-      "impact": "Low",
-      "forecast": "1.2%",
-      "previous": "-0.3%"
-    },
-    {
       "title": "Spanish 10-y Bond Auction",
       "country": "EUR",
-      "date": "2026-09-03T05:03:00-04:00",
+      "date": "2026-09-03T04:43:00-04:00",
       "impact": "Low",
       "forecast": "",
       "previous": "3.54|2.4"
@@ -708,10 +700,18 @@
     {
       "title": "French 10-y Bond Auction",
       "country": "EUR",
-      "date": "2026-09-03T05:18:00-04:00",
+      "date": "2026-09-03T04:57:00-04:00",
       "impact": "Low",
       "forecast": "",
       "previous": "3.86|3.7"
+    },
+    {
+      "title": "PPI m/m",
+      "country": "EUR",
+      "date": "2026-09-03T05:00:00-04:00",
+      "impact": "Low",
+      "forecast": "1.2%",
+      "previous": "-0.3%"
     },
     {
       "title": "Challenger Job Cuts y/y",
@@ -918,22 +918,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-09-03T01:27:58.182333+00:00",
-        "price": 4395.5
-      },
-      {
-        "t": "2026-09-03T06:24:24.291160+00:00",
-        "price": 4423.899902
+        "t": "2026-09-03T11:33:46.042969+00:00",
+        "price": 4433.5
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-09-03T01:27:58.182333+00:00",
-        "price": 65.691002
-      },
-      {
-        "t": "2026-09-03T06:24:24.291160+00:00",
-        "price": 65.952003
+        "t": "2026-09-03T11:33:46.042969+00:00",
+        "price": 65.879997
       }
     ]
   }
