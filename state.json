@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-09-01T21:21:22.412834+00:00",
-  "last_calendar_fetch": "2026-09-04T11:08:36.503075+00:00",
+  "last_calendar_fetch": "2026-09-04T14:58:09.577841+00:00",
   "calendar_cache": [
     {
       "title": "G20 Meetings",
@@ -920,6 +920,14 @@
       "impact": "Medium",
       "forecast": "56.2",
       "previous": "55.1"
+    },
+    {
+      "title": "FOMC Member Goolsbee Speaks",
+      "country": "USD",
+      "date": "2026-09-04T18:00:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": ""
     }
   ],
   "processed_events": [],
@@ -928,12 +936,20 @@
       {
         "t": "2026-09-04T11:08:35.689937+00:00",
         "price": 4472.100098
+      },
+      {
+        "t": "2026-09-04T14:58:09.240211+00:00",
+        "price": 4424.0
       }
     ],
     "XAGUSD": [
       {
         "t": "2026-09-04T11:08:35.689937+00:00",
         "price": 66.938004
+      },
+      {
+        "t": "2026-09-04T14:58:09.240211+00:00",
+        "price": 65.889999
       }
     ]
   }
