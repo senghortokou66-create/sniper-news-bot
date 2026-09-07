@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-09-01T21:21:22.412834+00:00",
-  "last_calendar_fetch": "2026-09-07T21:17:44.309723+00:00",
+  "last_calendar_fetch": "2026-09-07T23:39:59.431950+00:00",
   "calendar_cache": [
     {
       "title": "ANZ Job Advertisements m/m",
@@ -118,7 +118,7 @@
       "country": "JPY",
       "date": "2026-09-07T19:30:00-04:00",
       "impact": "Low",
-      "forecast": "3.9%",
+      "forecast": "3.8%",
       "previous": "3.4%"
     },
     {
@@ -134,7 +134,7 @@
       "country": "JPY",
       "date": "2026-09-07T19:50:00-04:00",
       "impact": "Low",
-      "forecast": "2.46T",
+      "forecast": "2.48T",
       "previous": "1.40T"
     },
     {
@@ -174,7 +174,7 @@
       "country": "CNY",
       "date": "2026-09-07T22:03:00-04:00",
       "impact": "Low",
-      "forecast": "795B",
+      "forecast": "805B",
       "previous": "767B"
     },
     {
@@ -182,7 +182,7 @@
       "country": "CNY",
       "date": "2026-09-07T22:04:00-04:00",
       "impact": "Low",
-      "forecast": "120.1B",
+      "forecast": "118.6B",
       "previous": "112.5B"
     },
     {
@@ -206,7 +206,7 @@
       "country": "EUR",
       "date": "2026-09-08T02:00:00-04:00",
       "impact": "Low",
-      "forecast": "16.5B",
+      "forecast": "16.0B",
       "previous": "15.4B"
     },
     {
@@ -230,7 +230,7 @@
       "country": "USD",
       "date": "2026-09-08T06:00:00-04:00",
       "impact": "Low",
-      "forecast": "99.2",
+      "forecast": "99.4",
       "previous": "99.8"
     },
     {
@@ -246,7 +246,7 @@
       "country": "USD",
       "date": "2026-09-08T15:00:00-04:00",
       "impact": "Low",
-      "forecast": "13.2B",
+      "forecast": "11.9B",
       "previous": "14.2B"
     },
     {
@@ -286,7 +286,7 @@
       "country": "EUR",
       "date": "2026-09-09T02:45:00-04:00",
       "impact": "Low",
-      "forecast": "0.1%",
+      "forecast": "0.2%",
       "previous": "0.1%"
     },
     {
@@ -350,7 +350,7 @@
       "country": "GBP",
       "date": "2026-09-09T19:01:00-04:00",
       "impact": "Low",
-      "forecast": "-31%",
+      "forecast": "-30%",
       "previous": "-30%"
     },
     {
@@ -438,7 +438,7 @@
       "country": "USD",
       "date": "2026-09-10T10:00:00-04:00",
       "impact": "Low",
-      "forecast": "1.3%",
+      "forecast": "1.2%",
       "previous": "1.3%"
     },
     {
@@ -510,7 +510,7 @@
       "country": "GBP",
       "date": "2026-09-11T02:00:00-04:00",
       "impact": "Low",
-      "forecast": "-22.4B",
+      "forecast": "-22.6B",
       "previous": "-23.0B"
     },
     {
@@ -526,7 +526,7 @@
       "country": "GBP",
       "date": "2026-09-11T02:00:00-04:00",
       "impact": "Low",
-      "forecast": "-0.1%",
+      "forecast": "-0.2%",
       "previous": "-0.2%"
     },
     {
@@ -542,7 +542,7 @@
       "country": "CHF",
       "date": "2026-09-11T03:00:00-04:00",
       "impact": "Low",
-      "forecast": "-32",
+      "forecast": "-33",
       "previous": "-35"
     },
     {
@@ -550,7 +550,7 @@
       "country": "EUR",
       "date": "2026-09-11T04:00:00-04:00",
       "impact": "Low",
-      "forecast": "5.3%",
+      "forecast": "5.4%",
       "previous": "5.3%"
     },
     {
@@ -626,19 +626,11 @@
       "previous": "4.3%"
     },
     {
-      "title": "Fed Monetary Policy Report",
-      "country": "USD",
-      "date": "2026-09-11T11:00:00-04:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": ""
-    },
-    {
       "title": "Federal Budget Balance",
       "country": "USD",
       "date": "2026-09-11T14:00:00-04:00",
       "impact": "Low",
-      "forecast": "-202.4B",
+      "forecast": "-221.1B",
       "previous": "-432.3B"
     },
     {
@@ -662,22 +654,22 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-09-07T17:55:22.343537+00:00",
-        "price": 4410.600098
-      },
-      {
         "t": "2026-09-07T21:17:43.410584+00:00",
         "price": 4407.100098
+      },
+      {
+        "t": "2026-09-07T23:39:58.709757+00:00",
+        "price": 4421.0
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-09-07T17:55:22.343537+00:00",
-        "price": 66.334999
-      },
-      {
         "t": "2026-09-07T21:17:43.410584+00:00",
         "price": 66.296997
+      },
+      {
+        "t": "2026-09-07T23:39:58.709757+00:00",
+        "price": 66.556999
       }
     ]
   }
