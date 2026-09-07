@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-09-01T21:21:22.412834+00:00",
-  "last_calendar_fetch": "2026-09-07T01:05:31.418441+00:00",
+  "last_calendar_fetch": "2026-09-07T06:07:42.430435+00:00",
   "calendar_cache": [
     {
       "title": "ANZ Job Advertisements m/m",
@@ -234,6 +234,14 @@
       "previous": "99.8"
     },
     {
+      "title": "Monetary Policy Report Hearings",
+      "country": "GBP",
+      "date": "2026-09-08T09:15:00-04:00",
+      "impact": "Medium",
+      "forecast": "",
+      "previous": ""
+    },
+    {
       "title": "Consumer Credit m/m",
       "country": "USD",
       "date": "2026-09-08T15:00:00-04:00",
@@ -254,7 +262,7 @@
       "country": "CNY",
       "date": "2026-09-08T21:30:00-04:00",
       "impact": "Low",
-      "forecast": "0.9%",
+      "forecast": "0.8%",
       "previous": "0.5%"
     },
     {
@@ -304,6 +312,14 @@
       "impact": "Low",
       "forecast": "",
       "previous": "11.8K"
+    },
+    {
+      "title": "ECB President Lagarde Speaks",
+      "country": "EUR",
+      "date": "2026-09-09T13:00:00-04:00",
+      "impact": "Medium",
+      "forecast": "",
+      "previous": ""
     },
     {
       "title": "German Buba President Nagel Speaks",
@@ -586,6 +602,14 @@
       "previous": "3.4%"
     },
     {
+      "title": "ECB President Lagarde Speaks",
+      "country": "EUR",
+      "date": "2026-09-11T10:00:00-04:00",
+      "impact": "Medium",
+      "forecast": "",
+      "previous": ""
+    },
+    {
       "title": "Prelim UoM Consumer Sentiment",
       "country": "USD",
       "date": "2026-09-11T10:00:00-04:00",
@@ -638,30 +662,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-09-06T21:44:32.334714+00:00",
-        "price": 4431.100098
-      },
-      {
-        "t": "2026-09-06T23:14:30.508281+00:00",
-        "price": 4430.600098
-      },
-      {
-        "t": "2026-09-07T01:05:30.467885+00:00",
-        "price": 4413.299805
+        "t": "2026-09-07T06:07:41.042906+00:00",
+        "price": 4389.0
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-09-06T21:44:32.334714+00:00",
-        "price": 66.341003
-      },
-      {
-        "t": "2026-09-06T23:14:30.508281+00:00",
-        "price": 66.359001
-      },
-      {
-        "t": "2026-09-07T01:05:30.467885+00:00",
-        "price": 66.059998
+        "t": "2026-09-07T06:07:41.042906+00:00",
+        "price": 65.675003
       }
     ]
   }
