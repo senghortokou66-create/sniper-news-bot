@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-09-01T21:21:22.412834+00:00",
-  "last_calendar_fetch": "2026-09-08T06:22:13.891925+00:00",
+  "last_calendar_fetch": "2026-09-08T11:37:21.074939+00:00",
   "calendar_cache": [
     {
       "title": "ANZ Job Advertisements m/m",
@@ -314,15 +314,15 @@
       "previous": "11.8K"
     },
     {
-      "title": "ECB President Lagarde Speaks",
+      "title": "German Buba President Nagel Speaks",
       "country": "EUR",
       "date": "2026-09-09T13:00:00-04:00",
-      "impact": "Medium",
+      "impact": "Low",
       "forecast": "",
       "previous": ""
     },
     {
-      "title": "German Buba President Nagel Speaks",
+      "title": "ECB President Lagarde Speaks",
       "country": "EUR",
       "date": "2026-09-09T13:00:00-04:00",
       "impact": "Low",
@@ -654,22 +654,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-09-08T01:24:58.103054+00:00",
-        "price": 4435.0
-      },
-      {
-        "t": "2026-09-08T06:22:12.940345+00:00",
-        "price": 4406.100098
+        "t": "2026-09-08T11:37:20.185775+00:00",
+        "price": 4407.0
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-09-08T01:24:58.103054+00:00",
-        "price": 67.101997
-      },
-      {
-        "t": "2026-09-08T06:22:12.940345+00:00",
-        "price": 66.237999
+        "t": "2026-09-08T11:37:20.185775+00:00",
+        "price": 66.370003
       }
     ]
   }
