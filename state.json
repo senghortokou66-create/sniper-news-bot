@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-09-08T21:40:34.484631+00:00",
-  "last_calendar_fetch": "2026-09-09T06:43:25.506486+00:00",
+  "last_calendar_fetch": "2026-09-09T11:56:35.280564+00:00",
   "calendar_cache": [
     {
       "title": "ANZ Job Advertisements m/m",
@@ -292,7 +292,7 @@
     {
       "title": "German 10-y Bond Auction",
       "country": "EUR",
-      "date": "2026-09-09T05:42:00-04:00",
+      "date": "2026-09-09T05:33:00-04:00",
       "impact": "Low",
       "forecast": "",
       "previous": "3.26|1.1"
@@ -360,6 +360,14 @@
       "impact": "Low",
       "forecast": "",
       "previous": "4.9%"
+    },
+    {
+      "title": "President Trump Speaks",
+      "country": "USD",
+      "date": "2026-09-09T21:15:00-04:00",
+      "impact": "Medium",
+      "forecast": "",
+      "previous": ""
     },
     {
       "title": "German Final CPI m/m",
@@ -654,14 +662,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-09-09T06:43:24.581307+00:00",
-        "price": 4401.799805
+        "t": "2026-09-09T11:56:34.670327+00:00",
+        "price": 4407.700195
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-09-09T06:43:24.581307+00:00",
-        "price": 66.723999
+        "t": "2026-09-09T11:56:34.670327+00:00",
+        "price": 66.499001
       }
     ]
   }
