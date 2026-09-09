@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-09-08T21:40:34.484631+00:00",
-  "last_calendar_fetch": "2026-09-09T16:24:30.259261+00:00",
+  "last_calendar_fetch": "2026-09-09T19:22:40.934991+00:00",
   "calendar_cache": [
     {
       "title": "ANZ Job Advertisements m/m",
@@ -454,7 +454,7 @@
       "country": "USD",
       "date": "2026-09-10T10:30:00-04:00",
       "impact": "Low",
-      "forecast": "",
+      "forecast": "35B",
       "previous": "30B"
     },
     {
@@ -462,7 +462,7 @@
       "country": "USD",
       "date": "2026-09-10T12:00:00-04:00",
       "impact": "Low",
-      "forecast": "",
+      "forecast": "-1.4M",
       "previous": "-4.5M"
     },
     {
@@ -672,12 +672,12 @@
     ],
     "XAGUSD": [
       {
-        "t": "2026-09-09T11:56:34.670327+00:00",
-        "price": 66.499001
-      },
-      {
         "t": "2026-09-09T16:24:29.115749+00:00",
         "price": 67.427002
+      },
+      {
+        "t": "2026-09-09T19:22:40.700927+00:00",
+        "price": 67.634003
       }
     ]
   }
