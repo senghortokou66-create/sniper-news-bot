@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-09-08T21:40:34.484631+00:00",
-  "last_calendar_fetch": "2026-09-09T11:56:35.280564+00:00",
+  "last_calendar_fetch": "2026-09-09T16:24:30.259261+00:00",
   "calendar_cache": [
     {
       "title": "ANZ Job Advertisements m/m",
@@ -300,18 +300,18 @@
     {
       "title": "ADP Weekly Employment Change",
       "country": "USD",
-      "date": "2026-09-09T08:15:00-04:00",
+      "date": "2026-09-09T08:14:00-04:00",
       "impact": "Low",
       "forecast": "",
-      "previous": ""
+      "previous": "11.8K"
     },
     {
       "title": "ADP Weekly Employment Change",
       "country": "USD",
-      "date": "2026-09-09T08:16:00-04:00",
+      "date": "2026-09-09T08:15:00-04:00",
       "impact": "Low",
       "forecast": "",
-      "previous": "11.8K"
+      "previous": "10.0K"
     },
     {
       "title": "German Buba President Nagel Speaks",
@@ -664,12 +664,20 @@
       {
         "t": "2026-09-09T11:56:34.670327+00:00",
         "price": 4407.700195
+      },
+      {
+        "t": "2026-09-09T16:24:29.115749+00:00",
+        "price": 4397.399902
       }
     ],
     "XAGUSD": [
       {
         "t": "2026-09-09T11:56:34.670327+00:00",
         "price": 66.499001
+      },
+      {
+        "t": "2026-09-09T16:24:29.115749+00:00",
+        "price": 67.427002
       }
     ]
   }
