@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-09-08T21:40:34.484631+00:00",
-  "last_calendar_fetch": "2026-09-13T14:41:58.185313+00:00",
+  "last_calendar_fetch": "2026-09-13T17:42:32.236187+00:00",
   "calendar_cache": [
     {
       "title": "BRICS Summit",
@@ -48,14 +48,6 @@
       "impact": "Low",
       "forecast": "0.1%",
       "previous": "0.1%"
-    },
-    {
-      "title": "Foreign Direct Investment ytd/y",
-      "country": "CNY",
-      "date": "2026-09-14T02:02:00-04:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": "-6.2%"
     },
     {
       "title": "PPI m/m",
@@ -224,6 +216,14 @@
       "impact": "Low",
       "forecast": "4.9%",
       "previous": "4.9%"
+    },
+    {
+      "title": "Foreign Direct Investment ytd/y",
+      "country": "CNY",
+      "date": "2026-09-15T02:02:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": "-6.2%"
     },
     {
       "title": "French Final CPI m/m",
@@ -790,21 +790,21 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-09-13T10:30:26.620273+00:00",
+        "t": "2026-09-13T14:41:57.378083+00:00",
         "price": 4349.700195
       },
       {
-        "t": "2026-09-13T14:41:57.378083+00:00",
+        "t": "2026-09-13T17:42:31.427900+00:00",
         "price": 4349.700195
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-09-13T10:30:26.620273+00:00",
+        "t": "2026-09-13T14:41:57.378083+00:00",
         "price": 64.622002
       },
       {
-        "t": "2026-09-13T14:41:57.378083+00:00",
+        "t": "2026-09-13T17:42:31.427900+00:00",
         "price": 64.622002
       }
     ]
