@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-09-08T21:40:34.484631+00:00",
-  "last_calendar_fetch": "2026-09-15T12:50:13.490599+00:00",
+  "last_calendar_fetch": "2026-09-15T17:32:13.696944+00:00",
   "calendar_cache": [
     {
       "title": "BRICS Summit",
@@ -290,9 +290,17 @@
       "previous": "20.6"
     },
     {
+      "title": "Treasury Sec Bessent Speaks",
+      "country": "USD",
+      "date": "2026-09-15T10:00:00-04:00",
+      "impact": "Medium",
+      "forecast": "",
+      "previous": ""
+    },
+    {
       "title": "GDT Price Index",
       "country": "NZD",
-      "date": "2026-09-15T10:50:00-04:00",
+      "date": "2026-09-15T11:39:00-04:00",
       "impact": "Low",
       "forecast": "",
       "previous": "0.9%"
@@ -848,12 +856,20 @@
       {
         "t": "2026-09-15T12:50:13.194290+00:00",
         "price": 4291.700195
+      },
+      {
+        "t": "2026-09-15T17:32:13.329688+00:00",
+        "price": 4298.200195
       }
     ],
     "XAGUSD": [
       {
         "t": "2026-09-15T12:50:13.194290+00:00",
         "price": 63.862999
+      },
+      {
+        "t": "2026-09-15T17:32:13.329688+00:00",
+        "price": 63.563999
       }
     ]
   }
