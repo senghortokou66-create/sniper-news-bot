@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-09-15T23:07:08.553899+00:00",
-  "last_calendar_fetch": "2026-09-17T06:09:21.476928+00:00",
+  "last_calendar_fetch": "2026-09-17T11:43:44.165857+00:00",
   "calendar_cache": [
     {
       "title": "BRICS Summit",
@@ -554,6 +554,14 @@
       "previous": ""
     },
     {
+      "title": "Spanish 10-y Bond Auction",
+      "country": "EUR",
+      "date": "2026-09-17T04:37:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": "3.74|2.3"
+    },
+    {
       "title": "Final Core CPI y/y",
       "country": "EUR",
       "date": "2026-09-17T05:00:00-04:00",
@@ -568,14 +576,6 @@
       "impact": "Low",
       "forecast": "3.3%",
       "previous": "3.3%"
-    },
-    {
-      "title": "Spanish 10-y Bond Auction",
-      "country": "EUR",
-      "date": "2026-09-17T05:03:00-04:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": "3.74|2.3"
     },
     {
       "title": "Monetary Policy Summary",
@@ -854,22 +854,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-09-17T01:09:35.677941+00:00",
-        "price": 4305.5
-      },
-      {
-        "t": "2026-09-17T06:09:20.850051+00:00",
-        "price": 4310.700195
+        "t": "2026-09-17T11:43:43.169974+00:00",
+        "price": 4326.0
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-09-17T01:09:35.677941+00:00",
-        "price": 63.984001
-      },
-      {
-        "t": "2026-09-17T06:09:20.850051+00:00",
-        "price": 63.942001
+        "t": "2026-09-17T11:43:43.169974+00:00",
+        "price": 64.245003
       }
     ]
   }
