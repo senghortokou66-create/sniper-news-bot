@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-09-15T23:07:08.553899+00:00",
-  "last_calendar_fetch": "2026-09-21T06:52:06.111476+00:00",
+  "last_calendar_fetch": "2026-09-21T13:44:13.545033+00:00",
   "calendar_cache": [
     {
       "title": "Bank Holiday",
@@ -522,6 +522,14 @@
       "previous": ""
     },
     {
+      "title": "BOJ Core CPI y/y",
+      "country": "JPY",
+      "date": "2026-09-25T01:00:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": "1.6%"
+    },
+    {
       "title": "German GfK Consumer Climate",
       "country": "EUR",
       "date": "2026-09-25T02:00:00-04:00",
@@ -614,14 +622,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-09-21T06:52:05.095802+00:00",
-        "price": 4353.0
+        "t": "2026-09-21T13:44:12.851104+00:00",
+        "price": 4351.700195
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-09-21T06:52:05.095802+00:00",
-        "price": 66.122002
+        "t": "2026-09-21T13:44:12.851104+00:00",
+        "price": 66.431
       }
     ]
   }
