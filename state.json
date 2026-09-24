@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-09-23T01:23:47.378969+00:00",
-  "last_calendar_fetch": "2026-09-23T23:03:12.207464+00:00",
+  "last_calendar_fetch": "2026-09-24T01:25:05.359251+00:00",
   "calendar_cache": [
     {
       "title": "Bank Holiday",
@@ -338,14 +338,6 @@
       "previous": "55.1"
     },
     {
-      "title": "NAB Quarterly Business Confidence",
-      "country": "AUD",
-      "date": "2026-09-23T20:35:00-04:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": "-19"
-    },
-    {
       "title": "Employment Change",
       "country": "AUD",
       "date": "2026-09-23T21:30:00-04:00",
@@ -360,6 +352,14 @@
       "impact": "High",
       "forecast": "4.5%",
       "previous": "4.5%"
+    },
+    {
+      "title": "NAB Quarterly Business Confidence",
+      "country": "AUD",
+      "date": "2026-09-23T22:35:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": "-19"
     },
     {
       "title": "SNB Monetary Policy Assessment",
@@ -654,22 +654,18 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-09-23T17:01:43.605037+00:00",
-        "price": 4285.5
-      },
-      {
-        "t": "2026-09-23T20:23:12.772895+00:00",
-        "price": 4285.0
+        "t": "2026-09-24T01:25:04.445306+00:00",
+        "price": 4298.100098
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-09-23T20:23:12.772895+00:00",
-        "price": 64.489998
-      },
-      {
         "t": "2026-09-23T23:03:11.323579+00:00",
         "price": 64.574997
+      },
+      {
+        "t": "2026-09-24T01:25:04.445306+00:00",
+        "price": 64.352997
       }
     ]
   }
