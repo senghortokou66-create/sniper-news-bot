@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-09-23T01:23:47.378969+00:00",
-  "last_calendar_fetch": "2026-09-24T12:14:25.738559+00:00",
+  "last_calendar_fetch": "2026-09-24T17:18:15.211124+00:00",
   "calendar_cache": [
     {
       "title": "Bank Holiday",
@@ -522,6 +522,14 @@
       "previous": ""
     },
     {
+      "title": "President Trump Speaks",
+      "country": "USD",
+      "date": "2026-09-24T10:15:00-04:00",
+      "impact": "Medium",
+      "forecast": "",
+      "previous": ""
+    },
+    {
       "title": "Natural Gas Storage",
       "country": "USD",
       "date": "2026-09-24T10:30:00-04:00",
@@ -654,14 +662,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-09-24T12:14:24.915543+00:00",
-        "price": 4269.399902
+        "t": "2026-09-24T17:18:14.463652+00:00",
+        "price": 4268.5
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-09-24T12:14:24.915543+00:00",
-        "price": 63.723
+        "t": "2026-09-24T17:18:14.463652+00:00",
+        "price": 63.766998
       }
     ]
   }
