@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-09-23T01:23:47.378969+00:00",
-  "last_calendar_fetch": "2026-09-29T08:19:24.922443+00:00",
+  "last_calendar_fetch": "2026-09-29T14:59:10.412385+00:00",
   "calendar_cache": [
     {
       "title": "Monetary Policy Meeting Minutes",
@@ -146,20 +146,20 @@
       "previous": "6.3B"
     },
     {
-      "title": "Italian 10-y Bond Auction",
-      "country": "EUR",
-      "date": "2026-09-29T05:33:00-04:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": "4.10|1.6"
-    },
-    {
       "title": "10-y Bond Auction",
       "country": "GBP",
-      "date": "2026-09-29T05:33:00-04:00",
+      "date": "2026-09-29T05:02:00-04:00",
       "impact": "Low",
       "forecast": "",
       "previous": "5.16|3.6"
+    },
+    {
+      "title": "Italian 10-y Bond Auction",
+      "country": "EUR",
+      "date": "2026-09-29T05:04:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": "4.10|1.6"
     },
     {
       "title": "German Buba President Nagel Speaks",
@@ -614,7 +614,7 @@
       "country": "USD",
       "date": "2026-09-30T10:30:00-04:00",
       "impact": "Low",
-      "forecast": "",
+      "forecast": "-1.9M",
       "previous": "3.0M"
     },
     {
@@ -1142,14 +1142,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-09-29T08:19:23.973713+00:00",
-        "price": 4143.899902
+        "t": "2026-09-29T14:59:09.605205+00:00",
+        "price": 4173.0
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-09-29T08:19:23.973713+00:00",
-        "price": 60.845001
+        "t": "2026-09-29T14:59:09.605205+00:00",
+        "price": 61.418999
       }
     ]
   }
