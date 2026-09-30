@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-09-30T02:24:56.260788+00:00",
-  "last_calendar_fetch": "2026-09-30T08:54:06.083726+00:00",
+  "last_calendar_fetch": "2026-09-30T15:43:43.981112+00:00",
   "calendar_cache": [
     {
       "title": "Monetary Policy Meeting Minutes",
@@ -508,7 +508,7 @@
     {
       "title": "German 10-y Bond Auction",
       "country": "EUR",
-      "date": "2026-09-30T05:42:00-04:00",
+      "date": "2026-09-30T05:32:00-04:00",
       "impact": "Low",
       "forecast": "",
       "previous": "3.39|1.5"
@@ -661,7 +661,7 @@
       "title": "FOMC Member Kashkari Speaks",
       "country": "USD",
       "date": "2026-09-30T18:00:00-04:00",
-      "impact": "Low",
+      "impact": "Medium",
       "forecast": "",
       "previous": ""
     },
@@ -1156,8 +1156,8 @@
     ],
     "XAGUSD": [
       {
-        "t": "2026-09-30T08:54:05.454417+00:00",
-        "price": 61.261002
+        "t": "2026-09-30T15:43:43.668471+00:00",
+        "price": 60.458
       }
     ]
   }
