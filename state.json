@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-09-30T02:24:56.260788+00:00",
-  "last_calendar_fetch": "2026-09-30T02:24:57.126204+00:00",
+  "last_calendar_fetch": "2026-09-30T08:54:06.083726+00:00",
   "calendar_cache": [
     {
       "title": "Monetary Policy Meeting Minutes",
@@ -410,14 +410,6 @@
       "previous": "0.2%"
     },
     {
-      "title": "German Retail Sales m/m",
-      "country": "EUR",
-      "date": "2026-09-30T02:00:00-04:00",
-      "impact": "Low",
-      "forecast": "1.6%",
-      "previous": "-3.4%"
-    },
-    {
       "title": "Current Account",
       "country": "GBP",
       "date": "2026-09-30T02:00:00-04:00",
@@ -440,6 +432,14 @@
       "impact": "Low",
       "forecast": "1.7%",
       "previous": "1.7%"
+    },
+    {
+      "title": "German Retail Sales m/m",
+      "country": "EUR",
+      "date": "2026-09-30T02:04:00-04:00",
+      "impact": "Low",
+      "forecast": "1.6%",
+      "previous": "-3.4%"
     },
     {
       "title": "German Prelim CPI m/m",
@@ -630,6 +630,14 @@
       "country": "USD",
       "date": "2026-09-30T15:25:00-04:00",
       "impact": "Low",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "title": "President Trump Speaks",
+      "country": "USD",
+      "date": "2026-09-30T15:30:00-04:00",
+      "impact": "Medium",
       "forecast": "",
       "previous": ""
     },
@@ -1142,22 +1150,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-09-29T23:33:27.173664+00:00",
-        "price": 4180.200195
-      },
-      {
-        "t": "2026-09-30T02:24:56.969122+00:00",
-        "price": 4180.0
+        "t": "2026-09-30T08:54:05.454417+00:00",
+        "price": 4198.100098
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-09-29T23:33:27.173664+00:00",
-        "price": 61.597
-      },
-      {
-        "t": "2026-09-30T02:24:56.969122+00:00",
-        "price": 61.249001
+        "t": "2026-09-30T08:54:05.454417+00:00",
+        "price": 61.261002
       }
     ]
   }
