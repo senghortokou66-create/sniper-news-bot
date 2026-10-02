@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-09-30T02:24:56.260788+00:00",
-  "last_calendar_fetch": "2026-10-01T23:01:42.060719+00:00",
+  "last_calendar_fetch": "2026-10-02T02:16:29.030306+00:00",
   "calendar_cache": [
     {
       "title": "Monetary Policy Meeting Minutes",
@@ -1018,18 +1018,18 @@
       "previous": ""
     },
     {
-      "title": "FOMC Member Logan Speaks",
-      "country": "USD",
-      "date": "2026-10-01T18:45:00-04:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": ""
-    },
-    {
       "title": "Bank Holiday",
       "country": "CNY",
       "date": "2026-10-01T19:01:00-04:00",
       "impact": "Holiday",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "title": "FOMC Member Logan Speaks",
+      "country": "USD",
+      "date": "2026-10-01T19:20:00-04:00",
+      "impact": "Low",
       "forecast": "",
       "previous": ""
     },
@@ -1150,22 +1150,22 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-10-01T18:47:14.934906+00:00",
-        "price": 4179.5
-      },
-      {
         "t": "2026-10-01T23:01:41.338771+00:00",
         "price": 4179.299805
+      },
+      {
+        "t": "2026-10-02T02:16:28.226818+00:00",
+        "price": 4156.299805
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-10-01T18:47:14.934906+00:00",
-        "price": 60.951
-      },
-      {
         "t": "2026-10-01T23:01:41.338771+00:00",
         "price": 61.139999
+      },
+      {
+        "t": "2026-10-02T02:16:28.226818+00:00",
+        "price": 60.707001
       }
     ]
   }
