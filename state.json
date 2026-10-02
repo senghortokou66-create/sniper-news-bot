@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-09-30T02:24:56.260788+00:00",
-  "last_calendar_fetch": "2026-10-02T15:31:21.877493+00:00",
+  "last_calendar_fetch": "2026-10-02T20:08:00.901330+00:00",
   "calendar_cache": [
     {
       "title": "Monetary Policy Meeting Minutes",
@@ -1132,7 +1132,7 @@
     {
       "title": "FOMC Member Goolsbee Speaks",
       "country": "USD",
-      "date": "2026-10-02T12:00:00-04:00",
+      "date": "2026-10-02T13:00:00-04:00",
       "impact": "Low",
       "forecast": "",
       "previous": ""
@@ -1158,14 +1158,18 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-10-02T08:50:57.613968+00:00",
-        "price": 4182.399902
+        "t": "2026-10-02T20:08:00.280702+00:00",
+        "price": 4144.100098
       }
     ],
     "XAGUSD": [
       {
         "t": "2026-10-02T15:31:03.263275+00:00",
         "price": 60.341
+      },
+      {
+        "t": "2026-10-02T20:08:00.280702+00:00",
+        "price": 60.637001
       }
     ]
   }
