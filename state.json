@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-10-07T06:33:43.096698+00:00",
-  "last_calendar_fetch": "2026-10-08T00:03:27.276570+00:00",
+  "last_calendar_fetch": "2026-10-08T06:07:03.310316+00:00",
   "calendar_cache": [
     {
       "title": "OPEC-JMMC Meetings",
@@ -506,6 +506,14 @@
       "previous": ""
     },
     {
+      "title": "MPC Member Pill Speaks",
+      "country": "GBP",
+      "date": "2026-10-08T05:00:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": ""
+    },
+    {
       "title": "MPC Member Greene Speaks",
       "country": "GBP",
       "date": "2026-10-08T05:15:00-04:00",
@@ -517,14 +525,6 @@
       "title": "Eurogroup Meetings",
       "country": "EUR",
       "date": "2026-10-08T05:15:00-04:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": ""
-    },
-    {
-      "title": "MPC Member Pill Speaks",
-      "country": "GBP",
-      "date": "2026-10-08T06:30:00-04:00",
       "impact": "Low",
       "forecast": "",
       "previous": ""
@@ -678,22 +678,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-10-07T19:52:15.817812+00:00",
-        "price": 4103.5
-      },
-      {
-        "t": "2026-10-08T00:03:27.057395+00:00",
-        "price": 4110.899902
+        "t": "2026-10-08T06:07:02.854435+00:00",
+        "price": 4120.5
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-10-07T19:52:15.817812+00:00",
-        "price": 59.755001
-      },
-      {
-        "t": "2026-10-08T00:03:27.057395+00:00",
-        "price": 59.932999
+        "t": "2026-10-08T06:07:02.854435+00:00",
+        "price": 59.473999
       }
     ]
   }
