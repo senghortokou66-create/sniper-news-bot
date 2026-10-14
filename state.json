@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-10-07T06:33:43.096698+00:00",
-  "last_calendar_fetch": "2026-10-14T00:29:28.653529+00:00",
+  "last_calendar_fetch": "2026-10-14T05:17:55.249323+00:00",
   "calendar_cache": [
     {
       "title": "Bank Holiday",
@@ -226,9 +226,17 @@
       "previous": "3.8%"
     },
     {
+      "title": "ECB President Lagarde Speaks",
+      "country": "EUR",
+      "date": "2026-10-13T22:10:00-04:00",
+      "impact": "Medium",
+      "forecast": "",
+      "previous": ""
+    },
+    {
       "title": "Trade Balance",
       "country": "CNY",
-      "date": "2026-10-13T22:03:00-04:00",
+      "date": "2026-10-13T22:31:00-04:00",
       "impact": "Low",
       "forecast": "790B",
       "previous": "809B"
@@ -236,18 +244,10 @@
     {
       "title": "USD-Denominated Trade Balance",
       "country": "CNY",
-      "date": "2026-10-13T22:04:00-04:00",
+      "date": "2026-10-13T22:31:00-04:00",
       "impact": "Low",
       "forecast": "116.8B",
       "previous": "119.1B"
-    },
-    {
-      "title": "ECB President Lagarde Speaks",
-      "country": "EUR",
-      "date": "2026-10-13T22:10:00-04:00",
-      "impact": "Medium",
-      "forecast": "",
-      "previous": ""
     },
     {
       "title": "MPC Member Breeden Speaks",
@@ -405,6 +405,14 @@
       "title": "Beige Book",
       "country": "USD",
       "date": "2026-10-14T14:00:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": ""
+    },
+    {
+      "title": "FOMC Member Goolsbee Speaks",
+      "country": "USD",
+      "date": "2026-10-14T15:00:00-04:00",
       "impact": "Low",
       "forecast": "",
       "previous": ""
@@ -806,7 +814,7 @@
       "country": "CAD",
       "date": "2026-10-16T08:30:00-04:00",
       "impact": "Low",
-      "forecast": "",
+      "forecast": "23.59B",
       "previous": "20.65B"
     },
     {
@@ -894,22 +902,22 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-10-13T21:15:53.725890+00:00",
-        "price": 4162.100098
-      },
-      {
         "t": "2026-10-14T00:29:27.576109+00:00",
         "price": 4161.600098
+      },
+      {
+        "t": "2026-10-14T05:17:54.805790+00:00",
+        "price": 4162.0
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-10-13T21:15:53.725890+00:00",
-        "price": 59.298
-      },
-      {
         "t": "2026-10-14T00:29:27.576109+00:00",
         "price": 59.264
+      },
+      {
+        "t": "2026-10-14T05:17:54.805790+00:00",
+        "price": 59.275002
       }
     ]
   }
