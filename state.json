@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-10-14T10:28:20.395704+00:00",
-  "last_calendar_fetch": "2026-10-19T07:27:52.226206+00:00",
+  "last_calendar_fetch": "2026-10-19T14:54:50.733865+00:00",
   "calendar_cache": [
     {
       "title": "IMF Meetings",
@@ -112,14 +112,6 @@
       "impact": "Low",
       "forecast": "-0.3%",
       "previous": "0.4%"
-    },
-    {
-      "title": "Foreign Direct Investment ytd/y",
-      "country": "CNY",
-      "date": "2026-10-19T05:10:00-04:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": "-5.3%"
     },
     {
       "title": "CPI m/m",
@@ -248,6 +240,14 @@
       "impact": "Low",
       "forecast": "23.6",
       "previous": "25.8"
+    },
+    {
+      "title": "Foreign Direct Investment ytd/y",
+      "country": "CNY",
+      "date": "2026-10-20T05:10:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": "-5.3%"
     },
     {
       "title": "10-y Bond Auction",
@@ -702,14 +702,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-10-19T07:27:51.115759+00:00",
-        "price": 4187.399902
+        "t": "2026-10-19T14:54:49.928943+00:00",
+        "price": 4146.899902
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-10-19T07:27:51.115759+00:00",
-        "price": 57.806
+        "t": "2026-10-19T14:54:49.928943+00:00",
+        "price": 57.250999
       }
     ]
   }
