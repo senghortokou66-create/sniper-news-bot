@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-10-14T10:28:20.395704+00:00",
-  "last_calendar_fetch": "2026-10-20T09:26:08.080130+00:00",
+  "last_calendar_fetch": "2026-10-20T14:26:35.134465+00:00",
   "calendar_cache": [
     {
       "title": "IMF Meetings",
@@ -242,17 +242,9 @@
       "previous": "25.8"
     },
     {
-      "title": "Foreign Direct Investment ytd/y",
-      "country": "CNY",
-      "date": "2026-10-20T05:10:00-04:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": "-5.3%"
-    },
-    {
       "title": "10-y Bond Auction",
       "country": "GBP",
-      "date": "2026-10-20T05:33:00-04:00",
+      "date": "2026-10-20T05:03:00-04:00",
       "impact": "Low",
       "forecast": "",
       "previous": "5.38|3.3"
@@ -358,7 +350,7 @@
       "country": "GBP",
       "date": "2026-10-21T02:00:00-04:00",
       "impact": "Low",
-      "forecast": "1.4%",
+      "forecast": "1.3%",
       "previous": "0.3%"
     },
     {
@@ -402,6 +394,14 @@
       "previous": "1.4%"
     },
     {
+      "title": "Foreign Direct Investment ytd/y",
+      "country": "CNY",
+      "date": "2026-10-21T05:10:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": "-5.3%"
+    },
+    {
       "title": "German Buba Monthly Report",
       "country": "EUR",
       "date": "2026-10-21T06:00:00-04:00",
@@ -422,7 +422,7 @@
       "country": "USD",
       "date": "2026-10-21T10:30:00-04:00",
       "impact": "Low",
-      "forecast": "-0.3M",
+      "forecast": "-0.1M",
       "previous": "-8.6M"
     },
     {
@@ -470,7 +470,7 @@
       "country": "CAD",
       "date": "2026-10-22T08:30:00-04:00",
       "impact": "Low",
-      "forecast": "3.0%",
+      "forecast": "3.1%",
       "previous": "3.1%"
     },
     {
@@ -702,18 +702,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-10-19T23:53:24.752974+00:00",
-        "price": 4133.299805
-      },
-      {
-        "t": "2026-10-20T04:01:36.197397+00:00",
-        "price": 4147.5
+        "t": "2026-10-20T14:26:34.770243+00:00",
+        "price": 4146.200195
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-10-20T09:26:07.226020+00:00",
-        "price": 57.344002
+        "t": "2026-10-20T14:26:34.770243+00:00",
+        "price": 58.296001
       }
     ]
   }
