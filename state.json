@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-10-14T10:28:20.395704+00:00",
-  "last_calendar_fetch": "2026-10-21T05:10:17.054270+00:00",
+  "last_calendar_fetch": "2026-10-21T10:11:17.338079+00:00",
   "calendar_cache": [
     {
       "title": "IMF Meetings",
@@ -394,14 +394,6 @@
       "previous": "1.4%"
     },
     {
-      "title": "Foreign Direct Investment ytd/y",
-      "country": "CNY",
-      "date": "2026-10-21T05:10:00-04:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": "-5.3%"
-    },
-    {
       "title": "German Buba Monthly Report",
       "country": "EUR",
       "date": "2026-10-21T06:00:00-04:00",
@@ -440,6 +432,14 @@
       "impact": "Low",
       "forecast": "",
       "previous": ""
+    },
+    {
+      "title": "Foreign Direct Investment ytd/y",
+      "country": "CNY",
+      "date": "2026-10-22T05:10:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": "-5.3%"
     },
     {
       "title": "CBI Industrial Order Expectations",
@@ -702,22 +702,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-10-21T00:25:42.246297+00:00",
-        "price": 4119.399902
-      },
-      {
-        "t": "2026-10-21T05:10:16.230205+00:00",
-        "price": 4120.799805
+        "t": "2026-10-21T10:11:16.408943+00:00",
+        "price": 4118.0
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-10-21T00:25:42.246297+00:00",
-        "price": 58.115002
-      },
-      {
-        "t": "2026-10-21T05:10:16.230205+00:00",
-        "price": 57.540001
+        "t": "2026-10-21T10:11:16.408943+00:00",
+        "price": 57.374001
       }
     ]
   }
