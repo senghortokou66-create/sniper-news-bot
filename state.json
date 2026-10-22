@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-10-21T15:17:54.186294+00:00",
-  "last_calendar_fetch": "2026-10-22T11:23:26.516801+00:00",
+  "last_calendar_fetch": "2026-10-22T15:58:17.081806+00:00",
   "calendar_cache": [
     {
       "title": "IMF Meetings",
@@ -450,36 +450,36 @@
       "previous": "-9"
     },
     {
-      "title": "IPPI m/m",
-      "country": "CAD",
-      "date": "2026-10-22T08:30:00-04:00",
-      "impact": "Low",
-      "forecast": "0.9%",
-      "previous": "1.3%"
-    },
-    {
-      "title": "NHPI m/m",
-      "country": "CAD",
-      "date": "2026-10-22T08:30:00-04:00",
-      "impact": "Low",
-      "forecast": "-0.1%",
-      "previous": "-0.1%"
-    },
-    {
-      "title": "RMPI m/m",
-      "country": "CAD",
-      "date": "2026-10-22T08:30:00-04:00",
-      "impact": "Low",
-      "forecast": "3.1%",
-      "previous": "3.1%"
-    },
-    {
       "title": "Unemployment Claims",
       "country": "USD",
       "date": "2026-10-22T08:30:00-04:00",
       "impact": "Medium",
       "forecast": "200K",
       "previous": "199K"
+    },
+    {
+      "title": "IPPI m/m",
+      "country": "CAD",
+      "date": "2026-10-22T08:38:00-04:00",
+      "impact": "Low",
+      "forecast": "0.9%",
+      "previous": "1.3%"
+    },
+    {
+      "title": "RMPI m/m",
+      "country": "CAD",
+      "date": "2026-10-22T08:38:00-04:00",
+      "impact": "Low",
+      "forecast": "3.1%",
+      "previous": "3.1%"
+    },
+    {
+      "title": "NHPI m/m",
+      "country": "CAD",
+      "date": "2026-10-22T09:55:00-04:00",
+      "impact": "Low",
+      "forecast": "-0.1%",
+      "previous": "-0.1%"
     },
     {
       "title": "Consumer Confidence",
@@ -704,12 +704,20 @@
       {
         "t": "2026-10-22T11:23:25.779261+00:00",
         "price": 4068.600098
+      },
+      {
+        "t": "2026-10-22T15:58:16.648417+00:00",
+        "price": 4053.300049
       }
     ],
     "XAGUSD": [
       {
         "t": "2026-10-22T11:23:25.779261+00:00",
         "price": 55.904999
+      },
+      {
+        "t": "2026-10-22T15:58:16.648417+00:00",
+        "price": 55.307999
       }
     ]
   }
