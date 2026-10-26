@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-10-21T15:17:54.186294+00:00",
-  "last_calendar_fetch": "2026-10-26T10:10:46.218467+00:00",
+  "last_calendar_fetch": "2026-10-26T16:48:18.669055+00:00",
   "calendar_cache": [
     {
       "title": "Bank Holiday",
@@ -70,7 +70,7 @@
       "country": "EUR",
       "date": "2026-10-27T04:00:00-04:00",
       "impact": "Low",
-      "forecast": "",
+      "forecast": "9.8%",
       "previous": "9.9%"
     },
     {
@@ -134,7 +134,7 @@
       "country": "USD",
       "date": "2026-10-27T10:00:00-04:00",
       "impact": "Medium",
-      "forecast": "80.5",
+      "forecast": "80.7",
       "previous": "81.9"
     },
     {
@@ -458,6 +458,14 @@
       "previous": "0.9%"
     },
     {
+      "title": "Gov Council Member Gravelle Speaks",
+      "country": "CAD",
+      "date": "2026-10-29T08:50:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": ""
+    },
+    {
       "title": "Main Refinancing Rate",
       "country": "EUR",
       "date": "2026-10-29T09:15:00-04:00",
@@ -492,7 +500,7 @@
     {
       "title": "Gov Council Member Vincent Speaks",
       "country": "CAD",
-      "date": "2026-10-29T10:50:00-04:00",
+      "date": "2026-10-29T11:30:00-04:00",
       "impact": "Low",
       "forecast": "",
       "previous": ""
@@ -782,14 +790,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-10-26T10:10:45.508557+00:00",
-        "price": 4018.899902
+        "t": "2026-10-26T16:48:03.037449+00:00",
+        "price": 4019.699951
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-10-26T10:10:45.508557+00:00",
-        "price": 54.137001
+        "t": "2026-10-26T16:48:03.037449+00:00",
+        "price": 54.183998
       }
     ]
   }
