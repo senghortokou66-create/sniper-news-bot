@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-10-28T18:45:48.732596+00:00",
-  "last_calendar_fetch": "2026-10-30T00:46:11.109721+00:00",
+  "last_calendar_fetch": "2026-10-30T06:53:00.778740+00:00",
   "calendar_cache": [
     {
       "title": "Bank Holiday",
@@ -562,9 +562,17 @@
       "previous": "0.6%"
     },
     {
+      "title": "BOJ Outlook Report",
+      "country": "JPY",
+      "date": "2026-10-29T23:02:00-04:00",
+      "impact": "High",
+      "forecast": "",
+      "previous": ""
+    },
+    {
       "title": "BOJ Policy Rate",
       "country": "JPY",
-      "date": "2026-10-29T22:30:00-04:00",
+      "date": "2026-10-29T23:02:00-04:00",
       "impact": "High",
       "forecast": "<1.25%",
       "previous": "<1.25%"
@@ -572,15 +580,7 @@
     {
       "title": "Monetary Policy Statement",
       "country": "JPY",
-      "date": "2026-10-29T22:30:00-04:00",
-      "impact": "High",
-      "forecast": "",
-      "previous": ""
-    },
-    {
-      "title": "BOJ Outlook Report",
-      "country": "JPY",
-      "date": "2026-10-29T22:31:00-04:00",
+      "date": "2026-10-29T23:02:00-04:00",
       "impact": "High",
       "forecast": "",
       "previous": ""
@@ -592,14 +592,6 @@
       "impact": "Low",
       "forecast": "2.7%",
       "previous": "6.1%"
-    },
-    {
-      "title": "BOJ Press Conference",
-      "country": "JPY",
-      "date": "2026-10-30T01:30:00-04:00",
-      "impact": "High",
-      "forecast": "",
-      "previous": ""
     },
     {
       "title": "French Consumer Spending m/m",
@@ -616,6 +608,14 @@
       "impact": "Low",
       "forecast": "0.1%",
       "previous": "0.2%"
+    },
+    {
+      "title": "BOJ Press Conference",
+      "country": "JPY",
+      "date": "2026-10-30T02:30:00-04:00",
+      "impact": "High",
+      "forecast": "",
+      "previous": ""
     },
     {
       "title": "German Import Prices m/m",
@@ -790,22 +790,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-10-29T20:57:13.275112+00:00",
-        "price": 4022.199951
-      },
-      {
-        "t": "2026-10-30T00:46:10.487524+00:00",
-        "price": 4017.0
+        "t": "2026-10-30T06:53:00.347262+00:00",
+        "price": 3985.899902
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-10-29T20:57:13.275112+00:00",
-        "price": 52.279999
-      },
-      {
-        "t": "2026-10-30T00:46:10.487524+00:00",
-        "price": 52.161999
+        "t": "2026-10-30T06:53:00.347262+00:00",
+        "price": 51.014
       }
     ]
   }
