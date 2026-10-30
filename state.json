@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-10-28T18:45:48.732596+00:00",
-  "last_calendar_fetch": "2026-10-30T13:53:52.102088+00:00",
+  "last_calendar_fetch": "2026-10-30T19:01:39.688270+00:00",
   "calendar_cache": [
     {
       "title": "Bank Holiday",
@@ -770,6 +770,14 @@
       "previous": ""
     },
     {
+      "title": "FOMC Member Logan Speaks",
+      "country": "USD",
+      "date": "2026-10-30T13:30:00-04:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": ""
+    },
+    {
       "title": "Manufacturing PMI",
       "country": "CNY",
       "date": "2026-10-30T21:30:00-04:00",
@@ -790,14 +798,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-10-30T06:53:00.347262+00:00",
-        "price": 3985.899902
+        "t": "2026-10-30T19:01:38.940746+00:00",
+        "price": 3879.699951
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-10-30T13:53:51.515302+00:00",
-        "price": 49.594002
+        "t": "2026-10-30T19:01:38.940746+00:00",
+        "price": 49.069
       }
     ]
   }
