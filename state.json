@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-10-28T18:45:48.732596+00:00",
-  "last_calendar_fetch": "2026-11-01T22:57:59.516390+00:00",
+  "last_calendar_fetch": "2026-11-02T02:19:30.077014+00:00",
   "calendar_cache": [
     {
       "title": "Daylight Saving Time Shift",
@@ -48,14 +48,6 @@
       "impact": "Low",
       "forecast": "53.3",
       "previous": "53.3"
-    },
-    {
-      "title": "ANZ Job Advertisements m/m",
-      "country": "AUD",
-      "date": "2026-11-01T19:45:00-05:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": "2.2%"
     },
     {
       "title": "RatingDog Manufacturing PMI",
@@ -174,7 +166,7 @@
       "country": "USD",
       "date": "2026-11-02T10:00:00-05:00",
       "impact": "Medium",
-      "forecast": "54.7",
+      "forecast": "54.5",
       "previous": "54.5"
     },
     {
@@ -182,7 +174,7 @@
       "country": "USD",
       "date": "2026-11-02T10:00:00-05:00",
       "impact": "Low",
-      "forecast": "0.3%",
+      "forecast": "0.4%",
       "previous": "0.9%"
     },
     {
@@ -942,22 +934,22 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-11-01T19:25:03.941706+00:00",
+        "t": "2026-11-01T22:57:58.876585+00:00",
         "price": 3876.399902
       },
       {
-        "t": "2026-11-01T22:57:58.876585+00:00",
-        "price": 3876.399902
+        "t": "2026-11-02T02:19:29.659226+00:00",
+        "price": 3912.0
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-11-01T19:25:03.941706+00:00",
+        "t": "2026-11-01T22:57:58.876585+00:00",
         "price": 49.254002
       },
       {
-        "t": "2026-11-01T22:57:58.876585+00:00",
-        "price": 49.254002
+        "t": "2026-11-02T02:19:29.659226+00:00",
+        "price": 50.097
       }
     ]
   }
