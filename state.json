@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-10-28T18:45:48.732596+00:00",
-  "last_calendar_fetch": "2026-11-03T09:53:35.686527+00:00",
+  "last_calendar_fetch": "2026-11-03T17:37:27.764412+00:00",
   "calendar_cache": [
     {
       "title": "Daylight Saving Time Shift",
@@ -258,9 +258,17 @@
       "previous": "-159.6B"
     },
     {
+      "title": "RCM/TIPP Economic Optimism",
+      "country": "USD",
+      "date": "2026-11-03T04:00:00-05:00",
+      "impact": "Low",
+      "forecast": "46.2",
+      "previous": "46.8"
+    },
+    {
       "title": "10-y Bond Auction",
       "country": "GBP",
-      "date": "2026-11-03T05:33:00-05:00",
+      "date": "2026-11-03T05:02:00-05:00",
       "impact": "Low",
       "forecast": "",
       "previous": "5.42|3.6"
@@ -282,14 +290,6 @@
       "previous": "0.1%"
     },
     {
-      "title": "RCM/TIPP Economic Optimism",
-      "country": "USD",
-      "date": "2026-11-03T10:10:00-05:00",
-      "impact": "Low",
-      "forecast": "46.2",
-      "previous": "46.8"
-    },
-    {
       "title": "Omdia Total Vehicle Sales",
       "country": "USD",
       "date": "2026-11-03T10:15:00-05:00",
@@ -308,7 +308,7 @@
     {
       "title": "GDT Price Index",
       "country": "NZD",
-      "date": "2026-11-03T10:50:00-05:00",
+      "date": "2026-11-03T10:27:00-05:00",
       "impact": "Low",
       "forecast": "",
       "previous": "2.5%"
@@ -510,7 +510,7 @@
       "country": "USD",
       "date": "2026-11-04T10:30:00-05:00",
       "impact": "Low",
-      "forecast": "",
+      "forecast": "-0.1M",
       "previous": "-1.9M"
     },
     {
@@ -934,14 +934,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-11-03T09:53:35.029411+00:00",
-        "price": 3910.399902
+        "t": "2026-11-03T17:37:27.014523+00:00",
+        "price": 3928.5
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-11-03T09:53:35.029411+00:00",
-        "price": 49.032001
+        "t": "2026-11-03T17:37:27.014523+00:00",
+        "price": 49.762001
       }
     ]
   }
