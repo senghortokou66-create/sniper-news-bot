@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-11-04T23:22:58.681089+00:00",
-  "last_calendar_fetch": "2026-11-06T06:49:37.022019+00:00",
+  "last_calendar_fetch": "2026-11-06T14:50:43.737024+00:00",
   "calendar_cache": [
     {
       "title": "Daylight Saving Time Shift",
@@ -914,6 +914,14 @@
       "previous": ""
     },
     {
+      "title": "FOMC Member Daly Speaks",
+      "country": "USD",
+      "date": "2026-11-06T13:00:00-05:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": ""
+    },
+    {
       "title": "Consumer Credit m/m",
       "country": "USD",
       "date": "2026-11-06T15:00:00-05:00",
@@ -934,14 +942,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-11-06T06:49:36.740958+00:00",
-        "price": 4048.0
+        "t": "2026-11-06T14:50:43.024290+00:00",
+        "price": 4048.600098
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-11-06T06:49:36.740958+00:00",
-        "price": 51.672001
+        "t": "2026-11-06T14:50:43.024290+00:00",
+        "price": 52.134998
       }
     ]
   }
