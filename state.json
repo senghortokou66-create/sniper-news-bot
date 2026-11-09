@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-11-04T23:22:58.681089+00:00",
-  "last_calendar_fetch": "2026-11-09T02:40:25.181901+00:00",
+  "last_calendar_fetch": "2026-11-09T10:22:51.749000+00:00",
   "calendar_cache": [
     {
       "title": "RBA Assist Gov Hunter Speaks",
@@ -48,22 +48,6 @@
       "impact": "Low",
       "forecast": "19.2B",
       "previous": "19.5B"
-    },
-    {
-      "title": "M2 Money Supply y/y",
-      "country": "CNY",
-      "date": "2026-11-09T04:03:00-05:00",
-      "impact": "Low",
-      "forecast": "7.3%",
-      "previous": "7.2%"
-    },
-    {
-      "title": "New Loans",
-      "country": "CNY",
-      "date": "2026-11-09T04:03:00-05:00",
-      "impact": "Low",
-      "forecast": "80B",
-      "previous": "1080B"
     },
     {
       "title": "Sentix Investor Confidence",
@@ -232,6 +216,22 @@
       "impact": "Medium",
       "forecast": "",
       "previous": ""
+    },
+    {
+      "title": "M2 Money Supply y/y",
+      "country": "CNY",
+      "date": "2026-11-10T04:03:00-05:00",
+      "impact": "Low",
+      "forecast": "7.3%",
+      "previous": "7.2%"
+    },
+    {
+      "title": "New Loans",
+      "country": "CNY",
+      "date": "2026-11-10T04:03:00-05:00",
+      "impact": "Low",
+      "forecast": "80B",
+      "previous": "1080B"
     },
     {
       "title": "NFIB Small Business Index",
@@ -832,12 +832,8 @@
     ],
     "XAGUSD": [
       {
-        "t": "2026-11-08T23:01:15.829527+00:00",
-        "price": 51.875
-      },
-      {
-        "t": "2026-11-09T02:40:24.452504+00:00",
-        "price": 53.404999
+        "t": "2026-11-09T10:22:51.332426+00:00",
+        "price": 52.754002
       }
     ]
   }
