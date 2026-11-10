@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-11-04T23:22:58.681089+00:00",
-  "last_calendar_fetch": "2026-11-09T20:57:51.769731+00:00",
+  "last_calendar_fetch": "2026-11-10T03:23:18.213315+00:00",
   "calendar_cache": [
     {
       "title": "RBA Assist Gov Hunter Speaks",
@@ -178,20 +178,20 @@
       "previous": "-13"
     },
     {
-      "title": "Trade Balance",
-      "country": "CNY",
-      "date": "2026-11-09T22:03:00-05:00",
-      "impact": "Low",
-      "forecast": "859B",
-      "previous": "906B"
-    },
-    {
       "title": "USD-Denominated Trade Balance",
       "country": "CNY",
-      "date": "2026-11-09T22:04:00-05:00",
+      "date": "2026-11-09T21:32:00-05:00",
       "impact": "Low",
       "forecast": "126.5B",
       "previous": "133.5B"
+    },
+    {
+      "title": "Trade Balance",
+      "country": "CNY",
+      "date": "2026-11-09T21:33:00-05:00",
+      "impact": "Low",
+      "forecast": "855B",
+      "previous": "906B"
     },
     {
       "title": "30-y Bond Auction",
@@ -206,7 +206,7 @@
       "country": "JPY",
       "date": "2026-11-10T00:00:00-05:00",
       "impact": "Low",
-      "forecast": "46.9",
+      "forecast": "47.1",
       "previous": "47.0"
     },
     {
@@ -230,7 +230,7 @@
       "country": "CNY",
       "date": "2026-11-10T04:03:00-05:00",
       "impact": "Low",
-      "forecast": "7.3%",
+      "forecast": "7.2%",
       "previous": "7.2%"
     },
     {
@@ -254,7 +254,7 @@
       "country": "USD",
       "date": "2026-11-10T06:00:00-05:00",
       "impact": "Low",
-      "forecast": "97.7",
+      "forecast": "98.0",
       "previous": "97.9"
     },
     {
@@ -486,7 +486,7 @@
       "country": "GBP",
       "date": "2026-11-11T19:01:00-05:00",
       "impact": "Low",
-      "forecast": "-32%",
+      "forecast": "-33%",
       "previous": "-32%"
     },
     {
@@ -550,7 +550,7 @@
       "country": "GBP",
       "date": "2026-11-12T02:00:00-05:00",
       "impact": "Low",
-      "forecast": "-0.3%",
+      "forecast": "0.4%",
       "previous": "1.7%"
     },
     {
@@ -562,19 +562,11 @@
       "previous": ""
     },
     {
-      "title": "EU Economic Forecasts",
-      "country": "EUR",
-      "date": "2026-11-12T05:00:00-05:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": ""
-    },
-    {
       "title": "Building Permits m/m",
       "country": "CAD",
       "date": "2026-11-12T08:30:00-05:00",
       "impact": "Low",
-      "forecast": "-3.9%",
+      "forecast": "-4.0%",
       "previous": "8.8%"
     },
     {
@@ -598,7 +590,7 @@
       "country": "USD",
       "date": "2026-11-12T10:00:00-05:00",
       "impact": "Low",
-      "forecast": "3.86M",
+      "forecast": "3.89M",
       "previous": "3.99M"
     },
     {
@@ -678,7 +670,7 @@
       "country": "USD",
       "date": "2026-11-12T14:00:00-05:00",
       "impact": "Low",
-      "forecast": "",
+      "forecast": "-286.3B",
       "previous": "-26.9B"
     },
     {
@@ -734,7 +726,7 @@
       "country": "EUR",
       "date": "2026-11-13T04:00:00-05:00",
       "impact": "Low",
-      "forecast": "1.85B",
+      "forecast": "2.84B",
       "previous": "1.77B"
     },
     {
@@ -826,6 +818,14 @@
       "previous": ""
     },
     {
+      "title": "German Buba President Nagel Speaks",
+      "country": "EUR",
+      "date": "2026-11-13T11:00:00-05:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": ""
+    },
+    {
       "title": "FOMC Member Daly Speaks",
       "country": "USD",
       "date": "2026-11-13T12:00:00-05:00",
@@ -854,18 +854,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-11-08T23:01:15.829527+00:00",
-        "price": 4065.399902
-      },
-      {
-        "t": "2026-11-09T02:40:24.452504+00:00",
-        "price": 4130.0
+        "t": "2026-11-10T03:23:12.918833+00:00",
+        "price": 4115.200195
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-11-09T10:22:51.332426+00:00",
-        "price": 52.754002
+        "t": "2026-11-10T03:23:12.918833+00:00",
+        "price": 53.131001
       }
     ]
   }
