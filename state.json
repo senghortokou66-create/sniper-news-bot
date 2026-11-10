@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-11-04T23:22:58.681089+00:00",
-  "last_calendar_fetch": "2026-11-10T11:34:42.284942+00:00",
+  "last_calendar_fetch": "2026-11-10T18:51:23.333477+00:00",
   "calendar_cache": [
     {
       "title": "RBA Assist Gov Hunter Speaks",
@@ -234,20 +234,20 @@
       "previous": ""
     },
     {
+      "title": "30-y Bond Auction",
+      "country": "GBP",
+      "date": "2026-11-10T05:02:00-05:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": "5.52|3.8"
+    },
+    {
       "title": "NFIB Small Business Index",
       "country": "USD",
       "date": "2026-11-10T06:00:00-05:00",
       "impact": "Low",
       "forecast": "98.0",
       "previous": "97.9"
-    },
-    {
-      "title": "30-y Bond Auction",
-      "country": "GBP",
-      "date": "2026-11-10T06:32:00-05:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": "5.52|3.8"
     },
     {
       "title": "MPC Member Lombardelli Speaks",
@@ -260,18 +260,18 @@
     {
       "title": "ADP Weekly Employment Change",
       "country": "USD",
-      "date": "2026-11-10T08:15:00-05:00",
+      "date": "2026-11-10T08:14:00-05:00",
       "impact": "Low",
       "forecast": "",
-      "previous": ""
+      "previous": "16.8K"
     },
     {
       "title": "ADP Weekly Employment Change",
       "country": "USD",
-      "date": "2026-11-10T08:16:00-05:00",
+      "date": "2026-11-10T08:15:00-05:00",
       "impact": "Low",
       "forecast": "",
-      "previous": "16.8K"
+      "previous": "19.5K"
     },
     {
       "title": "Core CPI m/m",
@@ -854,14 +854,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-11-10T11:34:41.576109+00:00",
-        "price": 4073.399902
+        "t": "2026-11-10T18:51:22.854155+00:00",
+        "price": 4029.899902
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-11-10T11:34:41.576109+00:00",
-        "price": 52.497002
+        "t": "2026-11-10T18:51:22.854155+00:00",
+        "price": 51.435001
       }
     ]
   }
