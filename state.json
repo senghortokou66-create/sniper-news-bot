@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-11-12T01:54:37.289509+00:00",
-  "last_calendar_fetch": "2026-11-12T09:28:03.618098+00:00",
+  "last_calendar_fetch": "2026-11-12T17:42:28.050212+00:00",
   "calendar_cache": [
     {
       "title": "RBA Assist Gov Hunter Speaks",
@@ -546,22 +546,6 @@
       "previous": ""
     },
     {
-      "title": "M2 Money Supply y/y",
-      "country": "CNY",
-      "date": "2026-11-12T04:03:00-05:00",
-      "impact": "Low",
-      "forecast": "7.2%",
-      "previous": "7.2%"
-    },
-    {
-      "title": "New Loans",
-      "country": "CNY",
-      "date": "2026-11-12T04:03:00-05:00",
-      "impact": "Low",
-      "forecast": "80B",
-      "previous": "1080B"
-    },
-    {
       "title": "Building Permits m/m",
       "country": "CAD",
       "date": "2026-11-12T08:30:00-05:00",
@@ -602,14 +586,6 @@
       "previous": ""
     },
     {
-      "title": "Mortgage Delinquencies",
-      "country": "USD",
-      "date": "2026-11-12T10:00:00-05:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": "4.37%"
-    },
-    {
       "title": "CB Leading Index m/m",
       "country": "AUD",
       "date": "2026-11-12T10:30:00-05:00",
@@ -640,6 +616,14 @@
       "impact": "Low",
       "forecast": "",
       "previous": ""
+    },
+    {
+      "title": "Mortgage Delinquencies",
+      "country": "USD",
+      "date": "2026-11-12T12:59:00-05:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": "4.37%"
     },
     {
       "title": "30-y Bond Auction",
@@ -754,6 +738,22 @@
       "previous": "-6.8B"
     },
     {
+      "title": "M2 Money Supply y/y",
+      "country": "CNY",
+      "date": "2026-11-13T05:03:00-05:00",
+      "impact": "Low",
+      "forecast": "7.2%",
+      "previous": "7.2%"
+    },
+    {
+      "title": "New Loans",
+      "country": "CNY",
+      "date": "2026-11-13T05:03:00-05:00",
+      "impact": "Low",
+      "forecast": "80B",
+      "previous": "1080B"
+    },
+    {
       "title": "Manufacturing Sales m/m",
       "country": "CAD",
       "date": "2026-11-13T08:30:00-05:00",
@@ -862,14 +862,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-11-12T09:28:03.460131+00:00",
-        "price": 3937.0
+        "t": "2026-11-12T17:42:27.541512+00:00",
+        "price": 3875.100098
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-11-12T09:28:03.460131+00:00",
-        "price": 51.194
+        "t": "2026-11-12T17:42:27.541512+00:00",
+        "price": 50.167999
       }
     ]
   }
