@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-11-12T01:54:37.289509+00:00",
-  "last_calendar_fetch": "2026-11-13T11:13:50.413782+00:00",
+  "last_calendar_fetch": "2026-11-13T18:34:29.598044+00:00",
   "calendar_cache": [
     {
       "title": "RBA Assist Gov Hunter Speaks",
@@ -802,14 +802,6 @@
       "previous": ""
     },
     {
-      "title": "Mortgage Delinquencies",
-      "country": "USD",
-      "date": "2026-11-13T10:15:00-05:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": "4.37%"
-    },
-    {
       "title": "Natural Gas Storage",
       "country": "USD",
       "date": "2026-11-13T10:30:00-05:00",
@@ -862,18 +854,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-11-12T22:52:49.773609+00:00",
-        "price": 3878.399902
-      },
-      {
-        "t": "2026-11-13T03:15:14.210687+00:00",
-        "price": 3919.600098
+        "t": "2026-11-13T18:34:29.136593+00:00",
+        "price": 3886.199951
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-11-13T11:13:50.127700+00:00",
-        "price": 49.860001
+        "t": "2026-11-13T18:34:29.136593+00:00",
+        "price": 49.063
       }
     ]
   }
