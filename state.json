@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-11-12T01:54:37.289509+00:00",
-  "last_calendar_fetch": "2026-11-13T18:34:29.598044+00:00",
+  "last_calendar_fetch": "2026-11-13T23:53:54.888961+00:00",
   "calendar_cache": [
     {
       "title": "RBA Assist Gov Hunter Speaks",
@@ -834,6 +834,14 @@
       "previous": ""
     },
     {
+      "title": "FOMC Financial Stability Report",
+      "country": "USD",
+      "date": "2026-11-13T16:00:00-05:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": ""
+    },
+    {
       "title": "FOMC Member Jefferson Speaks",
       "country": "USD",
       "date": "2026-11-13T19:00:00-05:00",
@@ -854,14 +862,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-11-13T18:34:29.136593+00:00",
-        "price": 3886.199951
+        "t": "2026-11-13T23:53:54.236034+00:00",
+        "price": 3887.600098
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-11-13T18:34:29.136593+00:00",
-        "price": 49.063
+        "t": "2026-11-13T23:53:54.236034+00:00",
+        "price": 48.650002
       }
     ]
   }
