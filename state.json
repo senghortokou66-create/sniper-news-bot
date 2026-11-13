@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-11-12T01:54:37.289509+00:00",
-  "last_calendar_fetch": "2026-11-13T03:15:14.813373+00:00",
+  "last_calendar_fetch": "2026-11-13T11:13:50.413782+00:00",
   "calendar_cache": [
     {
       "title": "RBA Assist Gov Hunter Speaks",
@@ -698,6 +698,22 @@
       "previous": "0.4%"
     },
     {
+      "title": "M2 Money Supply y/y",
+      "country": "CNY",
+      "date": "2026-11-13T04:00:00-05:00",
+      "impact": "Low",
+      "forecast": "7.2%",
+      "previous": "7.2%"
+    },
+    {
+      "title": "New Loans",
+      "country": "CNY",
+      "date": "2026-11-13T04:00:00-05:00",
+      "impact": "Low",
+      "forecast": "80B",
+      "previous": "1080B"
+    },
+    {
       "title": "Italian Trade Balance",
       "country": "EUR",
       "date": "2026-11-13T04:00:00-05:00",
@@ -728,22 +744,6 @@
       "impact": "Low",
       "forecast": "-4.5B",
       "previous": "-6.8B"
-    },
-    {
-      "title": "M2 Money Supply y/y",
-      "country": "CNY",
-      "date": "2026-11-13T05:03:00-05:00",
-      "impact": "Low",
-      "forecast": "7.2%",
-      "previous": "7.2%"
-    },
-    {
-      "title": "New Loans",
-      "country": "CNY",
-      "date": "2026-11-13T05:03:00-05:00",
-      "impact": "Low",
-      "forecast": "80B",
-      "previous": "1080B"
     },
     {
       "title": "Manufacturing Sales m/m",
@@ -872,12 +872,8 @@
     ],
     "XAGUSD": [
       {
-        "t": "2026-11-12T22:52:49.773609+00:00",
-        "price": 50.196999
-      },
-      {
-        "t": "2026-11-13T03:15:14.210687+00:00",
-        "price": 50.665001
+        "t": "2026-11-13T11:13:50.127700+00:00",
+        "price": 49.860001
       }
     ]
   }
