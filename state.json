@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-11-12T01:54:37.289509+00:00",
-  "last_calendar_fetch": "2026-11-16T08:24:02.746740+00:00",
+  "last_calendar_fetch": "2026-11-16T18:48:06.778795+00:00",
   "calendar_cache": [
     {
       "title": "BusinessNZ Services Index",
@@ -172,7 +172,7 @@
     {
       "title": "Cleveland Fed Inflation Expectations",
       "country": "USD",
-      "date": "2026-11-16T09:48:00-05:00",
+      "date": "2026-11-16T09:45:00-05:00",
       "impact": "Low",
       "forecast": "",
       "previous": "3.3%"
@@ -799,7 +799,7 @@
       "date": "2026-11-19T10:30:00-05:00",
       "impact": "Low",
       "forecast": "",
-      "previous": ""
+      "previous": "61B"
     },
     {
       "title": "FOMC Member Goolsbee Speaks",
@@ -974,14 +974,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-11-16T08:24:02.062811+00:00",
-        "price": 3862.919922
+        "t": "2026-11-16T18:48:06.391233+00:00",
+        "price": 3851.899902
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-11-16T08:24:02.062811+00:00",
-        "price": 47.34
+        "t": "2026-11-16T18:48:06.391233+00:00",
+        "price": 46.799999
       }
     ]
   }
