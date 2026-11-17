@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-11-12T01:54:37.289509+00:00",
-  "last_calendar_fetch": "2026-11-17T10:59:04.000185+00:00",
+  "last_calendar_fetch": "2026-11-17T19:45:08.786278+00:00",
   "calendar_cache": [
     {
       "title": "BusinessNZ Services Index",
@@ -394,6 +394,14 @@
       "previous": "0.7%"
     },
     {
+      "title": "GDT Price Index",
+      "country": "NZD",
+      "date": "2026-11-17T09:29:00-05:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": "3.0%"
+    },
+    {
       "title": "FOMC Member Hammack Speaks",
       "country": "USD",
       "date": "2026-11-17T09:30:00-05:00",
@@ -416,14 +424,6 @@
       "impact": "Low",
       "forecast": "29",
       "previous": "29"
-    },
-    {
-      "title": "GDT Price Index",
-      "country": "NZD",
-      "date": "2026-11-17T10:50:00-05:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": "3.0%"
     },
     {
       "title": "FOMC Member Williams Speaks",
@@ -622,7 +622,7 @@
       "country": "USD",
       "date": "2026-11-18T10:00:00-05:00",
       "impact": "Low",
-      "forecast": "-2.1%",
+      "forecast": "-1.8%",
       "previous": "-7.3%"
     },
     {
@@ -630,7 +630,7 @@
       "country": "USD",
       "date": "2026-11-18T10:30:00-05:00",
       "impact": "Low",
-      "forecast": "",
+      "forecast": "-0.3M",
       "previous": "4.7M"
     },
     {
@@ -1014,14 +1014,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-11-17T10:59:03.587422+00:00",
-        "price": 3859.370117
+        "t": "2026-11-17T19:45:08.598848+00:00",
+        "price": 3850.969971
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-11-17T10:59:03.587422+00:00",
-        "price": 47.355
+        "t": "2026-11-17T19:45:08.598848+00:00",
+        "price": 47.195
       }
     ]
   }
