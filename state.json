@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-11-12T01:54:37.289509+00:00",
-  "last_calendar_fetch": "2026-11-18T09:52:47.900386+00:00",
+  "last_calendar_fetch": "2026-11-18T18:43:15.144807+00:00",
   "calendar_cache": [
     {
       "title": "BusinessNZ Services Index",
@@ -722,14 +722,6 @@
       "previous": "4.7%"
     },
     {
-      "title": "Foreign Direct Investment ytd/y",
-      "country": "CNY",
-      "date": "2026-11-19T02:02:00-05:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": "-4.3%"
-    },
-    {
       "title": "Current Account",
       "country": "EUR",
       "date": "2026-11-19T04:00:00-05:00",
@@ -938,6 +930,14 @@
       "previous": "24.5B"
     },
     {
+      "title": "Foreign Direct Investment ytd/y",
+      "country": "CNY",
+      "date": "2026-11-20T02:02:00-05:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": "-4.3%"
+    },
+    {
       "title": "ECB President Lagarde Speaks",
       "country": "EUR",
       "date": "2026-11-20T03:15:00-05:00",
@@ -1014,14 +1014,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-11-18T09:52:47.646102+00:00",
-        "price": 3783.600098
+        "t": "2026-11-18T18:43:14.310141+00:00",
+        "price": 3744.669922
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-11-18T09:52:47.646102+00:00",
-        "price": 45.825001
+        "t": "2026-11-18T18:43:14.310141+00:00",
+        "price": 45.205002
       }
     ]
   }
