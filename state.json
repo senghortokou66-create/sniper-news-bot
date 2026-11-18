@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-11-12T01:54:37.289509+00:00",
-  "last_calendar_fetch": "2026-11-18T01:53:09.600544+00:00",
+  "last_calendar_fetch": "2026-11-18T09:52:47.900386+00:00",
   "calendar_cache": [
     {
       "title": "BusinessNZ Services Index",
@@ -530,14 +530,6 @@
       "previous": "3.9%"
     },
     {
-      "title": "Foreign Direct Investment ytd/y",
-      "country": "CNY",
-      "date": "2026-11-18T02:02:00-05:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": "-4.3%"
-    },
-    {
       "title": "BOE Gov Bailey Speaks",
       "country": "GBP",
       "date": "2026-11-18T02:30:00-05:00",
@@ -728,6 +720,14 @@
       "impact": "High",
       "forecast": "4.7%",
       "previous": "4.7%"
+    },
+    {
+      "title": "Foreign Direct Investment ytd/y",
+      "country": "CNY",
+      "date": "2026-11-19T02:02:00-05:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": "-4.3%"
     },
     {
       "title": "Current Account",
@@ -1014,14 +1014,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-11-18T01:53:09.147955+00:00",
-        "price": 3811.649902
+        "t": "2026-11-18T09:52:47.646102+00:00",
+        "price": 3783.600098
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-11-18T01:53:09.147955+00:00",
-        "price": 46.662998
+        "t": "2026-11-18T09:52:47.646102+00:00",
+        "price": 45.825001
       }
     ]
   }
