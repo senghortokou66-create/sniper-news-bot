@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-11-19T08:30:04.205729+00:00",
-  "last_calendar_fetch": "2026-11-19T08:30:05.018581+00:00",
+  "last_calendar_fetch": "2026-11-19T17:35:52.713476+00:00",
   "calendar_cache": [
     {
       "title": "BusinessNZ Services Index",
@@ -818,20 +818,20 @@
       "previous": "0.0%"
     },
     {
-      "title": "Mortgage Delinquencies",
-      "country": "USD",
-      "date": "2026-11-19T10:15:00-05:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": "4.37%"
-    },
-    {
       "title": "Natural Gas Storage",
       "country": "USD",
       "date": "2026-11-19T10:30:00-05:00",
       "impact": "Low",
       "forecast": "25B",
       "previous": "61B"
+    },
+    {
+      "title": "Mortgage Delinquencies",
+      "country": "USD",
+      "date": "2026-11-19T10:46:00-05:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": "4.37%"
     },
     {
       "title": "FOMC Member Goolsbee Speaks",
@@ -1014,14 +1014,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-11-19T08:30:04.716958+00:00",
-        "price": 3742.77002
+        "t": "2026-11-19T17:35:51.628334+00:00",
+        "price": 3690.5
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-11-19T08:30:04.716958+00:00",
-        "price": 45.185001
+        "t": "2026-11-19T17:35:51.628334+00:00",
+        "price": 44.509998
       }
     ]
   }
