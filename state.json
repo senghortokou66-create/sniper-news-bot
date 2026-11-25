@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-11-19T08:30:04.205729+00:00",
-  "last_calendar_fetch": "2026-11-25T08:36:48.950528+00:00",
+  "last_calendar_fetch": "2026-11-25T18:50:47.867525+00:00",
   "calendar_cache": [
     {
       "title": "Core Retail Sales q/q",
@@ -324,7 +324,7 @@
     {
       "title": "German 10-y Bond Auction",
       "country": "EUR",
-      "date": "2026-11-25T05:42:00-05:00",
+      "date": "2026-11-25T05:32:00-05:00",
       "impact": "Low",
       "forecast": "",
       "previous": "3.37|1.1"
@@ -400,6 +400,14 @@
       "impact": "Low",
       "forecast": "201K",
       "previous": "203K"
+    },
+    {
+      "title": "Monetary Policy Report Hearings",
+      "country": "GBP",
+      "date": "2026-11-25T09:15:00-05:00",
+      "impact": "Medium",
+      "forecast": "",
+      "previous": ""
     },
     {
       "title": "New Home Sales",
@@ -614,14 +622,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-11-25T08:36:48.636993+00:00",
-        "price": 3531.649902
+        "t": "2026-11-25T18:50:47.471870+00:00",
+        "price": 3546.800049
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-11-25T08:36:48.636993+00:00",
-        "price": 40.169998
+        "t": "2026-11-25T18:50:47.471870+00:00",
+        "price": 40.428001
       }
     ]
   }
