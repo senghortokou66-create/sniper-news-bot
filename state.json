@@ -7,7 +7,7 @@
   "PPIACO": "2026-05-01",
   "PCEPILFE": "2026-05-01",
   "last_heartbeat": "2026-11-19T08:30:04.205729+00:00",
-  "last_calendar_fetch": "2026-11-24T15:36:08.223097+00:00",
+  "last_calendar_fetch": "2026-11-25T00:08:16.552129+00:00",
   "calendar_cache": [
     {
       "title": "Core Retail Sales q/q",
@@ -330,6 +330,14 @@
       "previous": "3.37|1.1"
     },
     {
+      "title": "FOMC Member Bowman Speaks",
+      "country": "USD",
+      "date": "2026-11-25T07:25:00-05:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": ""
+    },
+    {
       "title": "Core PCE Price Index m/m",
       "country": "USD",
       "date": "2026-11-25T08:30:00-05:00",
@@ -567,7 +575,7 @@
       "date": "2026-11-27T05:33:00-05:00",
       "impact": "Low",
       "forecast": "",
-      "previous": ""
+      "previous": "4.49|1.6"
     },
     {
       "title": "German Buba President Nagel Speaks",
@@ -606,14 +614,14 @@
   "price_history": {
     "XAUUSD": [
       {
-        "t": "2026-11-24T15:36:07.541582+00:00",
-        "price": 3593.199951
+        "t": "2026-11-25T00:08:15.421486+00:00",
+        "price": 3551.899902
       }
     ],
     "XAGUSD": [
       {
-        "t": "2026-11-24T15:36:07.541582+00:00",
-        "price": 41.23
+        "t": "2026-11-25T00:08:15.421486+00:00",
+        "price": 40.764999
       }
     ]
   }
